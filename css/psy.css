@@ -2,13 +2,148 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.oculto, .oculta {
+    display: none !important;
+}
+
+a {
+    text-decoration: none;
 }
 
 html, body {
-    height: 100%;
+    min-height: 100%;
 }
 
 header {
     height: 3.5rem;
-    background: lightblue;
+    display: flex;
+}
+
+#hamburguer {
+    flex: 0 0 3.5rem;
+    height: 3.5rem;
+    background: url("../img/menu.svg") no-repeat center;
+    background-size: 62.5%;
+}
+
+#logo {
+    flex: 1 1 auto;
+    height: 3.5rem;
+    background: orange;
+}
+
+#call {
+    flex: 0 0 3.5rem;
+    height: 3.5rem;
+    background: url("../img/phone.svg") no-repeat center;
+    background-size: 50%;
+}
+
+header .contato {
+    display: flex !important;
+    flex-flow: column nowrap;
+    top: 3.5rem;
+    right: 1rem;
+    position: absolute;
+    background: #414447;
+    border-radius: 2px;
+    color: white;
+    padding: 1rem;
+    opacity: 0;
+    transition: ease 0.25s;
+}
+
+header .contato.visivel {
+    right: 0rem;
+    opacity: 1;
+}
+
+@media (min-width: 1000px) {
+    header > .contato, header > .contato.visivel {
+        position: static;
+        top: auto;
+        right: auto;
+        background: white;
+        color: black;
+        flex-flow: row nowrap;
+        padding: 0;
+        opacity: 1;
+    }
+}
+
+menu {
+    position: absolute;
+    top: 3.5rem;
+    left: 0;
+    width: 16rem;
+    height: calc(100vh - 3.5rem);
+    background: #414447;
+    overflow: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    left: -16rem;
+    transition: ease 0.5s;
+}
+
+menu.visivel {
+    left: 0;
+}
+
+menu a {
+    color: white;
+    font-size: 1.1rem;
+    padding: 1rem;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 1000px) {
+    menu, menu.visivel {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 3.5rem;
+        width: 100vw;
+        flex-flow: row nowrap;
+        overflow: visible;
+        transition: none;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    html, body {
+        min-height: calc(100% - 3.5rem);
+        background: red;
+    }
+
+    #logo {
+        flex: 0 1 25%;
+    }
+
+    #hamburguer, #call {
+        display: none;
+    }
+
+    header {
+        margin-top: 3.5rem;
+    }
+
+    header > .contato {
+        display: flex;
+        flex: 0 1 75%;
+        flex-flow: row nowrap;
+    }
+
+    header > .contato > div {
+        flex: 1 1 calc(100% / 3);
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
