@@ -33,7 +33,6 @@ header {
 #logo {
     flex: 1 1 auto;
     height: 3.5rem;
-    background: orange;
 }
 
 #call {
@@ -47,7 +46,7 @@ header .contato {
     display: flex !important;
     flex-flow: column nowrap;
     top: 3.5rem;
-    right: 1rem;
+    right: 2rem;
     position: absolute;
     background: #414447;
     border-radius: 2px;
@@ -86,7 +85,7 @@ menu {
     display: flex;
     flex-flow: column nowrap;
     left: -16rem;
-    transition: ease 0.5s;
+    transition: ease 0.2s;
 }
 
 menu.visivel {
@@ -96,8 +95,27 @@ menu.visivel {
 menu a {
     color: white;
     font-size: 1.1rem;
-    padding: 1rem;
+    padding: 1rem 2rem 1rem 1rem;
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+menu a:active {
+    background: #fd7062;
+}
+
+menu a.sub {
+    background: url("../img/arrow-down-white.svg") no-repeat right 0.5rem center;
+}
+
+menu div.sub {
+    display: none;
+    flex: 0 0 auto;
+    padding-left: 1rem;
+}
+
+menu .sub.visivel {
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 @media (min-width: 1000px) {
@@ -110,7 +128,36 @@ menu a {
         flex-flow: row nowrap;
         overflow: visible;
         transition: none;
+        background: #8b949c;
     }
+
+    menu > a {
+        transition: all 0.5s ease;
+        padding: 1rem 2rem 1rem 1rem;
+    }
+
+    menu > a:hover {
+        background: #9da7b0;
+        text-shadow: 2px 2px 8px #333;
+    }
+
+    menu > a.sub:hover {
+        background: url("../img/arrow-down-white.svg") no-repeat right 0.5rem center #9da7b0;
+    }
+
+    menu div.sub {
+        display: none;
+        position: absolute;
+        top: 3.5rem;
+        left: 0;
+        background: red;
+    }
+
+    menu div.sub.visivel {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
 }
 
 @media (min-width: 1000px) {
@@ -139,7 +186,6 @@ menu a {
 
     header > .contato > div {
         flex: 1 1 calc(100% / 3);
-        border: 1px solid #ccc;
         display: flex;
         justify-content: center;
         align-items: center;
