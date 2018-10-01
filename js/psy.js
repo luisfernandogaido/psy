@@ -48,6 +48,8 @@ let Header = {
           let sub = a.nextSibling.nextSibling;
           sub.classList.add('visivel');
           Header.els.subVisivel = sub;
+          let rect = a.getBoundingClientRect();
+          sub.style.left = (rect.x) + 'px';
         }
       });
 
@@ -57,7 +59,7 @@ let Header = {
           let sub = a.nextSibling.nextSibling;
           Header.timerSub = setTimeout(function() {
             sub.classList.remove('visivel');
-          }, 250);
+          }, 125);
         }
       });
     }
@@ -75,7 +77,7 @@ let Header = {
           let sub = this;
           Header.timerSub = setTimeout(function() {
             sub.classList.remove('visivel');
-          }, 250);
+          }, 125);
         }
       });
 
@@ -92,7 +94,7 @@ let Header = {
     Header.els.contato.classList.remove('visivel');
     setTimeout(function() {
       Tela.oculta(Header.els.contato);
-    }, 250);
+    }, 125);
   },
 
   mostraContato: function() {
