@@ -50,9 +50,7 @@
         <a href="index.html.php">Location</a>
     </menu>
 </header>
-<main>
-
-</main>
+<main></main>
 <footer></footer>
 <script src="js/psy.js"></script>
 </body>

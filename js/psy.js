@@ -59,7 +59,7 @@ let Header = {
           let sub = a.nextSibling.nextSibling;
           Header.timerSub = setTimeout(function() {
             sub.classList.remove('visivel');
-          }, 125);
+          }, 25);
         }
       });
     }
@@ -77,7 +77,7 @@ let Header = {
           let sub = this;
           Header.timerSub = setTimeout(function() {
             sub.classList.remove('visivel');
-          }, 125);
+          }, 25);
         }
       });
 
@@ -94,7 +94,7 @@ let Header = {
     Header.els.contato.classList.remove('visivel');
     setTimeout(function() {
       Tela.oculta(Header.els.contato);
-    }, 125);
+    }, 25);
   },
 
   mostraContato: function() {

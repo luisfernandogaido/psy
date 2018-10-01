@@ -33,6 +33,7 @@ header {
 #logo {
     flex: 1 1 auto;
     height: 3.5rem;
+    background: lightblue;
 }
 
 #call {
@@ -67,7 +68,7 @@ header .contato.visivel {
         top: auto;
         right: auto;
         background: white;
-        color: black;
+        color: #8b949c;
         flex-flow: row nowrap;
         padding: 0;
         opacity: 1;
@@ -136,6 +137,7 @@ menu .sub.visivel {
         padding: 1rem 2rem 1rem 1rem;
     }
 
+
     menu > a:hover {
         background: #9da7b0;
         text-shadow: 2px 2px 8px #333;
@@ -151,7 +153,8 @@ menu .sub.visivel {
         top: 3.5rem;
         left: 0;
         background: white;
-        box-shadow: 0 0 4px #999;
+        box-shadow: 0 0 16px #666;
+        border-top: 3px solid #fd7062;
     }
 
     menu div.sub.visivel {
@@ -161,6 +164,14 @@ menu .sub.visivel {
 
     menu div.sub a {
         color: #8b949c;
+    }
+
+    menu div.sub a:hover {
+        color: black;
+    }
+
+    menu div.sub a:active {
+        background: white;
     }
 
 }
