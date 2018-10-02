@@ -48,7 +48,7 @@ let Header = {
           let sub = a.nextSibling.nextSibling;
           sub.classList.add('visivel');
           let rect = a.getBoundingClientRect();
-          sub.style.left = (rect.x) + 'px';
+          sub.style.left = (rect.left) + 'px';
         }
       });
 
