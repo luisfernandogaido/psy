@@ -1,4 +1,4 @@
-<?php /* @var $this tpl\Psy */ ?>
+<?php /* @var $this templates\Psy */ ?>
 <!doctype html>
 <html>
 <head>
@@ -7,10 +7,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Psy</title>
-    <link rel="icon" href="<?= SITE ?>core/tpl/psy/img/favicon.ico?<?= CSSJSV ?>" type="image/x-icon">
+    <link rel="icon" href="<?= SITE ?>core/templates/psy/img/favicon.ico?<?= CSSJSV ?>" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
-    <link rel="stylesheet" href="<?= SITE ?>core/tpl/psy/css/psy.css?<?= CSSJSV ?>">
+    <link rel="stylesheet" href="<?= SITE ?>core/templates/psy/css/psy.css?<?= CSSJSV ?>">
     <?= $this->css ?>
 </head>
 <body>
@@ -33,17 +33,17 @@
             (19)99999-9999
         </div>
     </section>
-    <?php include RAIZ . "core/tpl/psy/inc/menu.html.php" ?>
+    <?php include RAIZ . "core/templates/psy/inc/menu.html.php" ?>
 </header>
 <main>
     <?= $this->corpo ?>
 </main>
-<?php include RAIZ . "core/tpl/psy/inc/footer.html.php" ?>
+<?php include RAIZ . "core/templates/psy/inc/footer.html.php" ?>
 <script>
     let SITE = '<?= SITE ?>';
 </script>
 <script src="<?= SITE ?>core/js/core.js?<?= CSSJSV ?>"></script>
-<script src="<?= SITE ?>core/tpl/psy/js/psy.js?<?= CSSJSV ?>"></script>
+<script src="<?= SITE ?>core/templates/psy/js/psy.js?<?= CSSJSV ?>"></script>
 <?= $this->js ?>
 </body>
 </html>

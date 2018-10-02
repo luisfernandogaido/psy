@@ -1,5 +1,5 @@
 <?php
-namespace tpl;
+namespace templates;
 
 use function ob_clean;
 use function ob_get_clean;
@@ -45,6 +45,6 @@ class Psy
     public function renderiza()
     {
         ob_clean();
-        include RAIZ . 'core/tpl/psy/psy.html.php';
+        include RAIZ . 'core/templates/psy/psy.html.php';
     }
 }

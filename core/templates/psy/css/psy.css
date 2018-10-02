@@ -37,19 +37,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../img/logo.svg") no-repeat left 3rem center;
+    background: url("../img/mind.png") no-repeat left 2rem center;
     padding-left: 3rem;
-    background-size: 2rem;
+    background-size: 3rem;
     font-family: "Merienda", "Times New Roman", serif;
     font-size: 1.1rem;
     font-weight: bold;
     color: #fd7062;
 }
 
-@media(min-width: 1000px){
+@media (min-width: 1024px) {
     #logo {
-        background: url("../img/logo.svg") no-repeat left center;
-        background-size: 2rem;
+        background: url("../img/mind.png") no-repeat left center;
+        background-size: 3rem;
         padding-left: 0;
     }
 }
@@ -107,7 +107,7 @@ header .contato.visivel {
     opacity: 1;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
 
     header > .contato, header > .contato.visivel {
         position: static;
@@ -168,7 +168,7 @@ main {
     margin: 0 1rem;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
 
     #wp-menu {
         position: fixed;
@@ -182,7 +182,7 @@ main {
     menu, menu.visivel {
         height: 3.5rem;
         position: static;
-        width: 1000px;
+        width: 1024px;
         margin-left: auto;
         margin-right: auto;
         flex-flow: row nowrap;
@@ -251,7 +251,7 @@ main {
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
 
     html, body {
         min-height: calc(100% - 3.5rem);
@@ -267,7 +267,7 @@ main {
 
     header {
         margin-top: 3.5rem;
-        width: 1000px;
+        width: 1024px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -300,12 +300,13 @@ main {
 
     header > .contato > div.phone {
         padding-left: 1.75rem;
-        background: url("../img/phone-gray.svg") left 2rem center no-repeat;
-        background-size: 1.5rem;
+        background: url("../img/phone-gray.svg") left 5rem center no-repeat;
+        background-size: 1.4rem;
+        justify-content: flex-end;
     }
 
     main {
-        width: 1000px;
+        width: 1024px;
         margin-left: auto;
         margin-right: auto;
     }

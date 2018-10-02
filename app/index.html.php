@@ -1,4 +1,4 @@
-<?php $template = new tpl\Psy() ?>
+<?php $template = new templates\Psy() ?>
 
 <?php $template->iniCss() ?>
 <link rel="stylesheet" href="index.css?<?= CSSJSV ?>">
@@ -6,7 +6,7 @@
 
 <?php $template->iniCorpo() ?>
 
-oie
+<?= str_repeat('txt ', 4000) ?>
 
 <?php $template->fimCorpo() ?>
 
