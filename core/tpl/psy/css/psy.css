@@ -37,12 +37,21 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../img/logo.svg") no-repeat left center;
+    background: url("../img/logo.svg") no-repeat left 3rem center;
+    padding-left: 3rem;
     background-size: 2rem;
     font-family: "Merienda", "Times New Roman", serif;
     font-size: 1.1rem;
     font-weight: bold;
     color: #fd7062;
+}
+
+@media(min-width: 1000px){
+    #logo {
+        background: url("../img/logo.svg") no-repeat left center;
+        background-size: 2rem;
+        padding-left: 0;
+    }
 }
 
 #call {
@@ -153,6 +162,10 @@ menu div.sub {
 menu .sub.visivel {
     display: flex;
     flex-flow: column nowrap;
+}
+
+main {
+    margin: 0 1rem;
 }
 
 @media (min-width: 1000px) {
