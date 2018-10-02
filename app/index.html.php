@@ -6,7 +6,7 @@
 
 <?php $template->iniCorpo() ?>
 
-<?= str_repeat('txt ', 4000) ?>
+
 
 <?php $template->fimCorpo() ?>
 
