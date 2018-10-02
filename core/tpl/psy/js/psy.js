@@ -87,6 +87,10 @@ let Header = {
       Header.els.contato.classList.remove('visivel');
     });
 
+    if (!window.matchMedia('(min-width: 1024px)').matches) {
+      Tela.oculta(Header.els.contato);
+    }
+
   },
 
   ocultaContato: function() {

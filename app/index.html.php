@@ -1,12 +1,17 @@
-<?php include "../ini.php"; ?>
-<!doctype html>
-<html>
-<?php include RAIZ . "html/head.html.php"; ?>
-<body>
-<?php include RAIZ . "html/header.html.php"; ?>
-<main>
+<?php $template = new tpl\Psy() ?>
 
-</main>
-<?php include RAIZ . "html/footer.html.php"; ?>
-</body>
-</html>
+<?php $template->iniCss() ?>
+<link rel="stylesheet" href="index.css?<?= CSSJSV ?>">
+<?php $template->fimCss() ?>
+
+<?php $template->iniCorpo() ?>
+
+
+
+<?php $template->fimCorpo() ?>
+
+<?php $template->iniJs() ?>
+<script src="index.js?<?= CSSJSV ?>"></script>
+<?php $template->fimJs() ?>
+
+<?php $template->renderiza() ?>
