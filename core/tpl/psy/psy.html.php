@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
     <link rel="stylesheet" href="<?= SITE ?>core/tpl/psy/css/psy.css?<?= CSSJSV ?>">
+    <?= $this->css ?>
 </head>
 <body>
 <header>
@@ -43,5 +44,6 @@
 </script>
 <script src="<?= SITE ?>core/js/core.js?<?= CSSJSV ?>"></script>
 <script src="<?= SITE ?>core/tpl/psy/js/psy.js?<?= CSSJSV ?>"></script>
+<?= $this->js ?>
 </body>
 </html>
