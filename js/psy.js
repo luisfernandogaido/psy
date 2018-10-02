@@ -47,7 +47,6 @@ let Header = {
           let a = this;
           let sub = a.nextSibling.nextSibling;
           sub.classList.add('visivel');
-          Header.els.subVisivel = sub;
           let rect = a.getBoundingClientRect();
           sub.style.left = (rect.x) + 'px';
         }
@@ -106,8 +105,6 @@ let Header = {
 
 };
 
-Header.ini();
-
 let Tela = {
 
   oculta: function(el) {
@@ -123,3 +120,5 @@ let Tela = {
   },
 
 };
+
+Header.ini();

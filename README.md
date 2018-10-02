@@ -1,2 +1,2 @@
 # psy
-Template responsivo
+Template responsivo.

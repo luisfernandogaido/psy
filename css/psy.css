@@ -34,6 +34,16 @@ header {
     flex: 1 1 auto;
     height: 3.5rem;
     background: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../img/logo.svg") no-repeat left 2rem center;
+    background-size: 2rem;
+    padding-left: 3rem;
+    font-family: "Merienda", "Times New Roman", serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fd7062;
 }
 
 #call {
@@ -57,12 +67,40 @@ header .contato {
     transition: ease 0.25s;
 }
 
+header .contato div {
+    padding-left: 2.5rem;
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+header .contato div.phone {
+    background: url("../img/phone-white.svg") left center no-repeat;
+    background-size: contain;
+    font-size: 1.25rem;
+}
+
+header .contato div.clock {
+    background: url("../img/clock-white.svg") left top 5px no-repeat;
+    background-size: 1.5rem;
+}
+
+header .contato div.home {
+    background: url("../img/home-white.svg") left top 5px no-repeat;
+    background-size: 1.5rem;
+}
+
+header .contato div:last-child {
+    padding-bottom: 0;
+}
+
 header .contato.visivel {
     right: 0rem;
     opacity: 1;
 }
 
 @media (min-width: 1000px) {
+
     header > .contato, header > .contato.visivel {
         position: static;
         top: auto;
@@ -137,6 +175,21 @@ menu .sub.visivel {
         padding: 1rem 2rem 1rem 1rem;
     }
 
+    menu a {
+        font-size: 0.9rem;
+    }
+
+    menu div a {
+        padding: 0.5rem 0.5rem;
+    }
+
+    menu div a:first-child {
+        padding-top: 0;
+    }
+
+    menu div a:last-child {
+        padding-bottom: 0;
+    }
 
     menu > a:hover {
         background: #9da7b0;
@@ -155,6 +208,7 @@ menu .sub.visivel {
         background: white;
         box-shadow: 0 0 16px #666;
         border-top: 3px solid #fd7062;
+        padding: 1rem;
     }
 
     menu div.sub.visivel {
@@ -205,6 +259,25 @@ menu .sub.visivel {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-bottom: 0;
+    }
+
+    header > .contato > div.home {
+        padding-left: 1.75rem;
+        background: url("../img/home-gray.svg") left center no-repeat;
+        background-size: 1.75rem;
+    }
+
+    header > .contato > div.clock {
+        padding-left: 1.75rem;
+        background: url("../img/clock-gray.svg") left 3.5rem center no-repeat;
+        background-size: 1.5rem;
+    }
+
+    header > .contato > div.phone {
+        padding-left: 1.75rem;
+        background: url("../img/phone-gray.svg") left 2rem center no-repeat;
+        background-size: 1.5rem;
     }
 
 }
