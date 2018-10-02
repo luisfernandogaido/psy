@@ -37,9 +37,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../img/logo.svg") no-repeat left 2rem center;
+    background: url("../img/logo.svg") no-repeat left center;
     background-size: 2rem;
-    padding-left: 3rem;
     font-family: "Merienda", "Times New Roman", serif;
     font-size: 1.1rem;
     font-weight: bold;
@@ -157,16 +156,26 @@ menu .sub.visivel {
 }
 
 @media (min-width: 1000px) {
-    menu, menu.visivel {
+
+    #wp-menu {
         position: fixed;
         left: 0;
         top: 0;
         height: 3.5rem;
         width: 100vw;
+        background: #8b949c;
+    }
+
+    menu, menu.visivel {
+        height: 3.5rem;
+        position: static;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
         flex-flow: row nowrap;
         overflow: visible;
         transition: none;
-        background: #8b949c;
+        background: transparent;
     }
 
     menu > a {
@@ -245,6 +254,9 @@ menu .sub.visivel {
 
     header {
         margin-top: 3.5rem;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     header > .contato {
@@ -277,6 +289,12 @@ menu .sub.visivel {
         padding-left: 1.75rem;
         background: url("../img/phone-gray.svg") left 2rem center no-repeat;
         background-size: 1.5rem;
+    }
+
+    main {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
