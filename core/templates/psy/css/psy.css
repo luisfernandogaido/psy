@@ -84,11 +84,16 @@ header .contato div {
 header .contato div.phone {
     background: url("../img/phone-white.svg") left center no-repeat;
     background-size: contain;
+
+}
+
+header .contato div.phone a {
+    color: white;
     font-size: 1.25rem;
 }
 
 header .contato div.clock {
-    background: url("../img/clock-white.svg") left top 5px no-repeat;
+    background: url("../img/clock-white.svg") left top no-repeat;
     background-size: 1.5rem;
 }
 
@@ -170,6 +175,63 @@ main {
 
 @media (min-width: 1024px) {
 
+    html, body {
+        min-height: calc(100% - 3.5rem);
+    }
+
+    #logo {
+        flex: 0 1 25%;
+    }
+
+    #hamburguer, #call {
+        display: none;
+    }
+
+    header {
+        margin-top: 3.5rem;
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header > .contato {
+        display: flex;
+        flex: 0 1 75%;
+        flex-flow: row nowrap;
+    }
+
+    header > .contato > div {
+        flex: 1 1 calc(100% / 3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    header > .contato > div.home {
+        padding-left: 0;
+        background: url("../img/home-gray.svg") left center no-repeat;
+        background-size: 1.75rem;
+    }
+
+    header > .contato > div.clock {
+        padding-left: 0;
+        background: url("../img/clock-gray.svg") left 0.5rem center no-repeat;
+        background-size: 1.5rem;
+    }
+
+    header > .contato > div.phone {
+        padding-left: 0;
+        background: url("../img/phone-gray.svg") left 2.5rem center no-repeat;
+        background-size: 1.4rem;
+        justify-content: flex-end;
+    }
+
+    header > .contato > div.phone > a {
+        font-size: 1.6rem;
+        color: #fd7062;
+    }
+
     #wp-menu {
         position: fixed;
         left: 0;
@@ -249,66 +311,11 @@ main {
         background: white;
     }
 
-}
-
-@media (min-width: 1024px) {
-
-    html, body {
-        min-height: calc(100% - 3.5rem);
-    }
-
-    #logo {
-        flex: 0 1 25%;
-    }
-
-    #hamburguer, #call {
-        display: none;
-    }
-
-    header {
-        margin-top: 3.5rem;
-        width: 1024px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    header > .contato {
-        display: flex;
-        flex: 0 1 75%;
-        flex-flow: row nowrap;
-    }
-
-    header > .contato > div {
-        flex: 1 1 calc(100% / 3);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 0;
-    }
-
-    header > .contato > div.home {
-        padding-left: 1.75rem;
-        background: url("../img/home-gray.svg") left center no-repeat;
-        background-size: 1.75rem;
-    }
-
-    header > .contato > div.clock {
-        padding-left: 1.75rem;
-        background: url("../img/clock-gray.svg") left 3.5rem center no-repeat;
-        background-size: 1.5rem;
-    }
-
-    header > .contato > div.phone {
-        padding-left: 1.75rem;
-        background: url("../img/phone-gray.svg") left 5rem center no-repeat;
-        background-size: 1.4rem;
-        justify-content: flex-end;
-    }
-
     main {
         width: 1024px;
         margin-left: auto;
         margin-right: auto;
+        min-height: calc(100vh - 112px);
     }
 
 }

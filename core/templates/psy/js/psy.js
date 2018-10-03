@@ -97,7 +97,7 @@ let Header = {
     Header.els.contato.classList.remove('visivel');
     setTimeout(function() {
       Tela.oculta(Header.els.contato);
-    }, 25);
+    }, 250);
   },
 
   mostraContato: function() {

@@ -22,15 +22,14 @@
     <a id="call"></a>
     <section class="contato">
         <div class="home">
-            Rua Ory Pinheiro Brisola, 9-99 <br>
+            Rua João Pedreira, 9-99 <br>
             Vila Rocha, Bauru/SP
         </div>
         <div class="clock">
-            Seg - Sex <br>
-            08h00 - 17h00
+            Seg - Sex, 08h00 - 17h00
         </div>
         <div class="phone">
-            (19)99999-9999
+            <a href="tel:(14)99101-9999">(14)99101-9999</a>
         </div>
     </section>
     <?php include RAIZ . "core/templates/psy/inc/menu.html.php" ?>
@@ -40,7 +39,7 @@
 </main>
 <?php include RAIZ . "core/templates/psy/inc/footer.html.php" ?>
 <script>
-    let SITE = '<?= SITE ?>';
+  let SITE = '<?= SITE ?>';
 </script>
 <script src="<?= SITE ?>core/js/core.js?<?= CSSJSV ?>"></script>
 <script src="<?= SITE ?>core/templates/psy/js/psy.js?<?= CSSJSV ?>"></script>
