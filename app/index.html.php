@@ -10,11 +10,6 @@
     <img src="freedom.jpeg" alt="">
 </div>
 
-<div style="width: 1007px; margin: auto">
-    <?= str_repeat('txt ', 1000) ?>
-</div>
-
-
 <?php $template->fimCorpo() ?>
 
 <?php $template->iniJs() ?>
