@@ -20,18 +20,7 @@
         Especialista
     </a>
     <a id="call"></a>
-    <section class="contato">
-        <div class="home">
-            Rua João Pedreira, 9-99 <br>
-            Vila Rocha, Bauru/SP
-        </div>
-        <div class="clock">
-            Seg - Sex, 08h00 - 17h00
-        </div>
-        <div class="phone">
-            <a href="tel:(14)99101-9999">(14)99101-9999</a>
-        </div>
-    </section>
+    <?php include RAIZ . "core/templates/psy/inc/contato.html.php" ?>
     <?php include RAIZ . "core/templates/psy/inc/menu.html.php" ?>
 </header>
 <main>
