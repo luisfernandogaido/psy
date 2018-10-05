@@ -78,6 +78,7 @@ header .contato {
     top: 3.5rem;
     right: 2rem;
     position: absolute;
+    z-index: 100;
     background: #414447;
     border-radius: 2px;
     color: white;
@@ -183,6 +184,10 @@ menu .sub.visivel {
 
 main {
     margin: 0 1rem;
+}
+
+#wp-menu {
+    z-index: 100;
 }
 
 @media (min-width: 1024px) {
