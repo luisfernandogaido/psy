@@ -47,9 +47,9 @@
 .carrossel .letreiro {
     top: 50%;
     opacity: 0;
-    left: 1rem;
     position: absolute;
     height: 100px;
+    left: 1rem;
     width: 100%;
 }
 
@@ -92,8 +92,22 @@
         width: auto;
     }
 
+    .carrossel .letreiro {
+        left: 0;
+    }
+
     .carrossel .letreiro p {
-        font-size: 3rem;
+        width: var(--largura-maxima);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carrossel .letreiro p.linha1 {
+        font-size: 4rem;
+    }
+
+    .carrossel .letreiro p.linha2 {
+        font-size: 2rem;
     }
 
 }

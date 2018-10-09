@@ -1,0 +1,95 @@
+#wp-perfil {
+    background: #f2f4f7;
+}
+
+#perfil {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#perfil > div {
+    flex: 0 0 100%;
+}
+
+#perfil .foto img {
+    display: block;
+    width: 100%;
+}
+
+#perfil .resumo {
+    padding: 1rem;
+}
+
+#perfil h1, #perfil h2, #perfil h3 {
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+#perfil h2 {
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    color: #8b949c;
+}
+
+#perfil h1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+#perfil h3 {
+    color: black;
+}
+
+#perfil p {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    #perfil > div {
+        flex: 1 1 50%;
+    }
+
+    #perfil .resumo {
+        padding-top: 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    #perfil {
+        width: var(--largura-maxima);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #perfil .resumo {
+        padding-top: 8rem;
+    }
+
+}
+
+.carrossel, #wp-perfil {
+    /*display: none;*/
+}
+
+#stat {
+    background: white;
+    margin: 2rem 0;
+}
+
+#stat > div {
+    max-width: var(--largura-maxima);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#stat > div > div {
+    flex: 1 1 100%;
+}
+
+#stat h1 {
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+}

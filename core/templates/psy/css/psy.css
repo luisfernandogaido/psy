@@ -15,6 +15,7 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     font-size: 1rem;
+    color: #8b949c;
 }
 
 .oculto, .oculta {
@@ -27,6 +28,10 @@ a {
 
 html, body {
     min-height: 100%;
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 header {
@@ -59,7 +64,7 @@ header {
 
 @media (min-width: 1024px) {
     #logo {
-        background: url("../img/mind.png") no-repeat left center;
+        background: url("../img/mind.png") white no-repeat left center;
         background-size: 3rem;
         padding-left: 0;
         height: 6rem;
@@ -335,4 +340,34 @@ main {
         min-height: calc(100vh - 3.5rem - 6rem);
     }
 
+}
+
+.botoes {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 1rem 0;
+}
+
+.botoes > a {
+    background: #8b949c;
+    color: white;
+    padding: 0.75rem 1.25rem;
+    margin: 0.25rem 0;
+    text-align: center;
+    cursor: default;
+}
+
+.botoes > a.importante {
+    background: #fd7062;
+}
+
+@media (min-width: 768px) {
+    .botoes {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .botoes > a {
+        margin-right: 0.5rem;
+    }
 }
