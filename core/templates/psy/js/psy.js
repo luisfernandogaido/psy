@@ -113,12 +113,15 @@ let Tela = {
 
   oculta: function(el) {
     el.classList.add('oculto');
-    el.classList.add('oculta');
   },
 
   mostra: function(el) {
     el.classList.remove('oculto');
     el.classList.remove('oculta');
+  },
+
+  isOculto: function(el) {
+    return el.classList.contains('oculto') || el.classList.contains('oculta');
   },
 
   isTouch: function() {
