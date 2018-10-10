@@ -39,11 +39,12 @@
     <div id="stat">
         <div>
             <div>
-
                 <h1>My Profile</h1>
 
                 <div class="item">
-                    <a class="simbolo"></a>
+                    <div class="simbolo">
+                        <a class="notification"></a>
+                    </div>
                     <h4>Anxiety Therapy</h4>
                     <p>
                         When it comes to treating anxiety disorders, research shows that therapy is usually the most
@@ -52,20 +53,23 @@
                 </div>
 
                 <div class="item">
-                    <a class="simbolo"></a>
-                    <h4>Anxiety Therapy</h4>
+                    <div class="simbolo">
+                        <a class="group"></a>
+                    </div>
+                    <h4>Group Therapy</h4>
                     <p>
-                        When it comes to treating anxiety disorders, research shows that therapy is usually the most
-                        effective option.
+                        Group therapy involves one or more psychologists who lead
+                        a group of roughly five to 15 patients.
                     </p>
                 </div>
 
                 <div class="item">
-                    <a class="simbolo"></a>
-                    <h4>Anxiety Therapy</h4>
+                    <div class="simbolo">
+                        <a class="favorite"></a>
+                    </div>
+                    <h4>Couples Therapy</h4>
                     <p>
-                        When it comes to treating anxiety disorders, research shows that therapy is usually the most
-                        effective option.
+                        Couples therapy is oriented towards solving the problems the couple is facing with each other.
                     </p>
                 </div>
 

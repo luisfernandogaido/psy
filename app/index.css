@@ -81,15 +81,71 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row wrap;
 }
 
 #stat > div > div {
     flex: 1 1 100%;
 }
 
+@media (min-width: 768px) {
+    #stat > div > div {
+        flex: 1 1 50%;
+    }
+}
+
 #stat h1 {
     color: black;
     font-size: 2rem;
     text-align: center;
+    margin-bottom: 2rem;
+}
+
+#stat .item {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#stat .simbolo, #stat h4, #stat p {
+    flex: 1 1 100%;
+}
+
+#stat .simbolo {
+    height: 3rem;
+}
+
+#stat .simbolo a {
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background: no-repeat center #f2f4f7;
+}
+
+#stat .simbolo a.notification {
+    background-image: url("../core/templates/psy/img/notification.svg");
+}
+
+#stat .simbolo a.group {
+    background-image: url("../core/templates/psy/img/group.svg");
+}
+
+#stat .simbolo a.favorite {
+    background-image: url("../core/templates/psy/img/favorite.svg");
+}
+
+#stat h4 {
+    text-align: center;
+    margin: 1.5rem;
+    color: #fd7062;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+}
+
+#stat p {
+    font-family: "Times New Roman";
+    color: #8b949c;
 }

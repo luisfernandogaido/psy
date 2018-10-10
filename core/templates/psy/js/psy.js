@@ -32,12 +32,27 @@ let Header = {
     for (let i = 0; i < Header.els.aSubs.length; i++) {
       Header.els.aSubs[i].addEventListener('click', function(e) {
         if (Tela.isTouch()) {
-          if (e.clientX > 200) {
-            let a = this;
-            let sub = a.nextSibling.nextSibling;
-            sub.classList.toggle('visivel');
+          if (window.matchMedia('(min-width: 1024px)').matches) {
             e.stopPropagation();
             e.preventDefault();
+            let subAberto = document.querySelector('menu div.sub.visivel');
+            if (subAberto) {
+              subAberto.classList.remove('visivel');
+            }
+            let a = this;
+            let sub = a.nextSibling.nextSibling;
+            sub.classList.add('visivel');
+            let rect = a.getBoundingClientRect();
+            sub.style.left = (rect.left) + 'px';
+
+          } else {
+            if (e.clientX > 200) {
+              let a = this;
+              let sub = a.nextSibling.nextSibling;
+              sub.classList.toggle('visivel');
+              e.stopPropagation();
+              e.preventDefault();
+            }
           }
         }
       });
@@ -87,7 +102,15 @@ let Header = {
       Header.els.contato.classList.remove('visivel');
     });
 
-    if (!window.matchMedia('(min-width: 1024px)').matches) {
+    if (window.matchMedia('(min-width: 1024px)').matches) {
+      document.body.addEventListener('click', function() {
+        let sub = document.querySelector('menu div.sub.visivel');
+        if (sub) {
+          console.log('parece que isso funciona...');
+          sub.classList.remove('visivel');
+        }
+      });
+    } else {
       Tela.oculta(Header.els.contato);
     }
 
