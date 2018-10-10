@@ -17,7 +17,7 @@
 <header>
     <a id="hamburguer"></a>
     <a id="logo" href="<?= SITE ?>app/index.php">
-        Especialista
+        Talita Bastos
     </a>
     <a id="call"></a>
     <?php include RAIZ . "core/templates/psy/inc/contato.html.php" ?>
