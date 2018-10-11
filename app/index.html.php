@@ -39,6 +39,7 @@
     <div id="stat">
         <div>
             <div>
+
                 <h1>My Profile</h1>
 
                 <div class="item">
@@ -74,7 +75,13 @@
                 </div>
 
             </div>
-            <div>2</div>
+            <div>
+
+                <div class="numeros">
+                    numeros muito legais
+                </div>
+
+            </div>
         </div>
     </div>
 

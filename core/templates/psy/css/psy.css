@@ -52,13 +52,20 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../img/mind.png") no-repeat left 2rem center;
-    padding-left: 3rem;
+    background: url("../img/mind.png") no-repeat left 0.5rem center;
+    padding-left: 3.5rem;
     background-size: 3rem;
-    font-family: "Merienda", "Times New Roman", serif;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     font-size: 1.1rem;
     font-weight: bold;
     color: #fd7062;
+}
+
+@media (min-width: 768px) {
+    #logo {
+        background: url("../img/mind.png") no-repeat left 15rem center;
+        background-size: 3rem;
+    }
 }
 
 @media (min-width: 1024px) {
