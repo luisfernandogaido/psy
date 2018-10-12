@@ -75,16 +75,105 @@
                 </div>
 
             </div>
+
             <div>
 
                 <div class="numeros">
-                    numeros muito legais
+                    <div class="numero">
+                        <span>33</span><br>
+                        YEARS OF PRACTICE
+                    </div>
+                    <div class="numero">
+                        <span>12</span><br>
+                        AWARDS WON
+                    </div>
+                    <div class="numero">
+                        <span>987</span><br>
+                        HAPPY CLIENTS
+                    </div>
+                    <div class="declaracao">
+                        My treatments will help you change "unhelpful patterns" of beliefs, thinking,
+                        feelings and behaviours.
+                    </div>
                 </div>
 
             </div>
         </div>
     </div>
 
+    <div id="artigos">
+        <div>
+
+            <h2>Artigos em destaque</h2>
+
+            <div class="artigo">
+                <div class="card">
+                    <time datetime="2017-03-25 20:00">25 MARÇO 2017</time>
+                    <h3>Insônia: Terapia Cognitica Comportamental</h3>
+                    <img src="artigo01.jpeg">
+                    <div class="botoes">
+                        <a class="importante">Ler artigo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="artigo">
+                <div class="card">
+                    <time datetime="2017-03-14 20:00">14 MARÇO 2017</time>
+                    <h3>Aconselhamento matrimonial e terapia em família</h3>
+                    <img src="artigo02.jpeg">
+                    <div class="botoes">
+                        <a class="importante">Ler artigo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="artigo">
+                <div class="card">
+                    <time datetime="2017-03-07 20:00">07 MARÇO 2017</time>
+                    <h3>Regras Importantes para Pais Adolescentes</h3>
+                    <img src="artigo03.jpeg">
+                    <div class="botoes">
+                        <a class="importante">Ler artigo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="artigo">
+                <div class="card">
+                    <time datetime="2017-03-25 20:00">25 MARÇO 2017</time>
+                    <h3>Insônia: Terapia Cognitica Comportamental</h3>
+                    <img src="artigo01.jpeg">
+                    <div class="botoes">
+                        <a class="importante">Ler artigo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="artigo">
+                <div class="card">
+                    <time datetime="2017-03-14 20:00">14 MARÇO 2017</time>
+                    <h3>Aconselhamento matrimonial e terapia em família</h3>
+                    <img src="artigo02.jpeg">
+                    <div class="botoes">
+                        <a class="importante">Ler artigo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="artigo">
+                <div class="card">
+                    <time datetime="2017-03-07 20:00">07 MARÇO 2017</time>
+                    <h3>Regras Importantes para Pais Adolescentes</h3>
+                    <img src="artigo03.jpeg">
+                    <div class="botoes">
+                        <a class="importante">Ler artigo</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 <?php $template->fimCorpo() ?>
 

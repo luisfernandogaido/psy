@@ -26,7 +26,7 @@ a {
 }
 
 html, body {
-    min-height: 100%;
+    overflow: auto;
 }
 
 h1, h2, h3 {
@@ -48,11 +48,10 @@ header {
 #logo {
     flex: 1 1 auto;
     height: 3.5rem;
-    background: lightblue;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../img/mind.png") no-repeat left 0.5rem center;
+    /*background: url("../img/mind.png") no-repeat left 0.5rem center;*/
     padding-left: 3.5rem;
     background-size: 3rem;
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
@@ -63,14 +62,14 @@ header {
 
 @media (min-width: 768px) {
     #logo {
-        background: url("../img/mind.png") no-repeat left 15rem center;
+        /*background: url("../img/mind.png") no-repeat left 15rem center;*/
         background-size: 3rem;
     }
 }
 
 @media (min-width: 1024px) {
     #logo {
-        background: url("../img/mind.png") white no-repeat left center;
+        /*background: url("../img/mind.png") white no-repeat left center;*/
         background-size: 3rem;
         padding-left: 0;
         height: 6rem;
