@@ -45,6 +45,7 @@
 }
 
 @media (min-width: 768px) {
+
     #perfil > div {
         flex: 1 1 50%;
     }
@@ -55,10 +56,15 @@
 }
 
 @media (min-width: 1024px) {
+
     #perfil {
         width: var(--largura-maxima);
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #perfil h1 {
+        font-size: 2rem;
     }
 
     #perfil .resumo {
@@ -104,6 +110,13 @@
     text-align: center;
     margin-bottom: 2rem;
     font-weight: 900;
+}
+
+@media (min-width: 768px) {
+    #stat h1 {
+        text-align: left;
+        font-size: 2rem;
+    }
 }
 
 #stat .item {
@@ -398,6 +411,10 @@
 
 @media (min-width: 768px) {
 
+    #newsletter h2 {
+        text-align: left;
+    }
+
     #newsletter p {
         flex: 0 0 25%;
         text-align: left;
@@ -406,7 +423,6 @@
         align-items: center;
         font-size: 0.8rem;
     }
-
 
     #newsletter .wp-email {
         flex: 0 0 50%;
@@ -419,7 +435,6 @@
         margin: 0;
         padding: 0;
     }
-
 
 }
 

@@ -4,24 +4,23 @@
             <a href="<?= SITE ?>app/index.php">Talita Bastos</a>
             <p>
                 Em minha clínica, eu procuro retomar a vida de meus pacientes a partir do ponto em que estão
-                e canalisar suas energias negativas para fora de uma maneira bem coordenada.
+                e canalizar suas energias negativas para fora de uma maneira bem coordenada.
                 Eu forneço aconselhamento psicológico a todos.
             </p>
         </div>
         <div class="menu">
             <a href="<?= SITE ?>app/index.php">HOME</a>
-            <a href="<?= SITE ?>app/index.php">ABOUT</a>
-            <a href="<?= SITE ?>app/index.php">SCHEDULE</a>
-            <a href="<?= SITE ?>app/index.php">SERVICES</a>
+            <a href="<?= SITE ?>app/index.php">SOBRE</a>
+            <a href="<?= SITE ?>app/index.php">AGENDA</a>
+            <a href="<?= SITE ?>app/index.php">SERVIÇOS</a>
             <a href="<?= SITE ?>app/index.php">BLOG</a>
-            <a href="<?= SITE ?>app/index.php">PAGES</a>
-            <a href="<?= SITE ?>app/index.php">LOCATION</a>
-            <a href="<?= SITE ?>app/index.php">DEPRESSION</a>
-            <a href="<?= SITE ?>app/index.php">ANXIETY</a>
-            <a href="<?= SITE ?>app/index.php">COUPLES</a>
+            <a href="<?= SITE ?>app/index.php">LOCALIZAÇÃO</a>
+            <a href="<?= SITE ?>app/index.php">DEPRESSÃO</a>
+            <a href="<?= SITE ?>app/index.php">ANSIEDADE</a>
+            <a href="<?= SITE ?>app/index.php">CASAIS</a>
             <a href="<?= SITE ?>app/index.php">INDIVIDUAL</a>
-            <a href="<?= SITE ?>app/index.php">POST-DIVORCE</a>
-            <a href="<?= SITE ?>app/index.php">CHILDREN</a>
+            <a href="<?= SITE ?>app/index.php">PÓS-DIVÓRCIO</a>
+            <a href="<?= SITE ?>app/index.php">CRIANÇAS</a>
         </div>
         <div class="contato">
             <p class="phone">

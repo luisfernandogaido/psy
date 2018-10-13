@@ -134,6 +134,11 @@ let Header = {
 
 let Tela = {
 
+  device: {
+    touch: null,
+    size: null,
+  },
+
   oculta: function(el) {
     el.classList.add('oculto');
   },
@@ -151,6 +156,30 @@ let Tela = {
     return 'ontouchstart' in window;
   },
 
+  getDevice: function() {
+    let device = {};
+    if (window.matchMedia('(min-width: 1024px)').matches) {
+      device.size = 'g';
+    } else if (window.matchMedia('(min-width: 768px)').matches) {
+      device.size = 'm';
+    } else {
+      device.size = 'p';
+    }
+    device.touch = Tela.isTouch();
+    return device;
+  },
+
+  ini: function() {
+    Tela.device = Tela.getDevice();
+    window.addEventListener('resize', function() {
+      let device = Tela.getDevice();
+      if (device.size != Tela.device.size || device.touch != Tela.device.touch) {
+        window.location.reload();
+      }
+    });
+  },
+
 };
 
 Header.ini();
+Tela.ini();

@@ -1,32 +1,22 @@
 <div id="wp-menu">
     <menu>
         <a href="<?= SITE ?>app/index.php">Home</a>
-        <a href="<?= SITE ?>app/index.php" class="sub">About</a>
+        <a href="<?= SITE ?>app/index.php" class="sub">Sobre</a>
         <div class="sub">
             <a href="<?= SITE ?>app/index.php">FAQ</a>
-            <a href="<?= SITE ?>app/index.php">Overview</a>
-            <a href="<?= SITE ?>app/index.php">Press</a>
-            <a href="<?= SITE ?>app/index.php">Testimonials</a>
-            <a href="<?= SITE ?>app/index.php">Insurance</a>
+            <a href="<?= SITE ?>app/index.php">Visão geral</a>
+            <a href="<?= SITE ?>app/index.php">Imprensa</a>
+            <a href="<?= SITE ?>app/index.php">Testemunhos</a>
+            <a href="<?= SITE ?>app/index.php">Seguro</a>
         </div>
-        <a href="<?= SITE ?>app/index.php">Schedule</a>
-        <a href="<?= SITE ?>app/index.php" class="sub">Services</a>
+        <a href="<?= SITE ?>app/index.php">Agenda</a>
+        <a href="<?= SITE ?>app/index.php" class="sub">Serviços</a>
         <div class="sub">
-            <a href="<?= SITE ?>app/index.php">Group Therapy</a>
+            <a href="<?= SITE ?>app/index.php">Terapia de grupo</a>
+            <a href="<?= SITE ?>app/index.php">Terapia de ansiedade</a>
+            <a href="<?= SITE ?>app/index.php">Terapia de casal</a>
         </div>
-        <a href="<?= SITE ?>app/index.php" class="sub">Blog</a>
-        <div class="sub">
-            <a href="<?= SITE ?>app/index.php">Single Post</a>
-        </div>
-        <a href="<?= SITE ?>app/index.php" class="sub">Pages</a>
-        <div class="sub">
-            <a href="<?= SITE ?>app/index.php">Home</a>
-            <a href="<?= SITE ?>app/index.php">Home Modern</a>
-            <a href="<?= SITE ?>app/index.php">Home Creative</a>
-            <a href="<?= SITE ?>app/index.php">FAQ</a>
-            <a href="<?= SITE ?>app/index.php">Overview</a>
-            <a href="<?= SITE ?>app/index.php">Press</a>
-        </div>
-        <a href="<?= SITE ?>app/index.php">Location</a>
+        <a href="<?= SITE ?>app/index.php">Blog</a>
+        <a href="<?= SITE ?>app/index.php">Localização</a>
     </menu>
 </div>

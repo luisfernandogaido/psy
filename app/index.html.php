@@ -8,11 +8,18 @@
 <?php $template->iniCorpo() ?>
 
     <div class="carrossel">
-        <img src="imagens-home/01.jpeg" data-linha1="Be Smart," data-linha2="Help yourself now." data-fonte-clara="0">
-        <img src="imagens-home/02.jpeg" data-linha1="Take Care" data-linha2="of your mental health."
-             data-fonte-clara="1">
-        <img src="imagens-home/03.jpeg" data-linha1="It's time" data-linha2="to solve your problems"
-             data-fonte-clara="1">
+        <img src="imagens-home/01.jpeg"
+             data-linha1="É hora"
+             data-linha2="de resolver seus problemas"
+             data-fonte-clara="0">
+        <img src="imagens-home/03.jpeg"
+             data-linha1="Seja inteligente,"
+             data-linha2="Ajude a si mesmo agora."
+             data-fonte-clara="0">
+        <img src="imagens-home/02.jpeg"
+             data-linha1="Cuide"
+             data-linha2="de sua saúde mental."
+             data-fonte-clara="0">
     </div>
 
     <div id="wp-perfil">
@@ -21,18 +28,18 @@
                 <img src="imagens-home/doctor.jpeg">
             </div>
             <div class="resumo">
-                <h2>DENNIS RICHARDSON, MCED, MA, LMHP, CPC</h2>
-                <h1>Welcome to my Clinic</h1>
+                <h2>TALITA BASTOS, MCED, MA, LMHP, CPC</h2>
+                <h1>Bem-vindo à minha clínica</h1>
                 <p>
-                    As a psychologist and a cognitive behavioral therapist I have worked with hundreds of patients and
-                    understand the intricacies of various psychological issues that people face.
-                    My work revolves around being friendly.
+                    Como psicóloga e terapeuta cognitiva-comportamental eu tenho trabalho com centenas de pacientes e
+                    entendido as complexidades de vários problemas psicológicos que as pessoas enfrentam.
+                    Meu trabalho gira em torno de ser amigável.
                 </p>
                 <h3>MB, Harvard University</h3>
                 <h3>MMed, University of Michigan</h3>
                 <div class="botoes">
-                    <a>Read about me</a>
-                    <a class="importante">View services</a>
+                    <a>Leia sobre mim</a>
+                    <a class="importante">Ver serviços</a>
                 </div>
             </div>
         </div>
@@ -42,16 +49,16 @@
         <div>
             <div>
 
-                <h1>My Profile</h1>
+                <h1>Meu perfil</h1>
 
                 <div class="item">
                     <div class="simbolo">
                         <a class="notification"></a>
                     </div>
-                    <h4>Anxiety Therapy</h4>
+                    <h4>Terapia de ansiedade</h4>
                     <p>
-                        When it comes to treating anxiety disorders, research shows that therapy is usually the most
-                        effective option.
+                        Quando é necessário tratar desordens de ansiedade, pesquisas mostram que a terapia é geralmente
+                        a opção mais efetiva.
                     </p>
                 </div>
 
@@ -59,10 +66,10 @@
                     <div class="simbolo">
                         <a class="group"></a>
                     </div>
-                    <h4>Group Therapy</h4>
+                    <h4>Terapia de grupo</h4>
                     <p>
-                        Group therapy involves one or more psychologists who lead
-                        a group of roughly five to 15 patients.
+                        Terapia de grupo envolve um ou mais psicólogos que conduzem um grupo de aproximadamente
+                        cinco a quinze pacientes.
                     </p>
                 </div>
 
@@ -70,9 +77,10 @@
                     <div class="simbolo">
                         <a class="favorite"></a>
                     </div>
-                    <h4>Couples Therapy</h4>
+                    <h4>Terapia de casais</h4>
                     <p>
-                        Couples therapy is oriented towards solving the problems the couple is facing with each other.
+                        Terapia de casais é orientada para resolver os problemas que o casal está enfrentando um com
+                        o outro.
                     </p>
                 </div>
 
@@ -82,20 +90,20 @@
 
                 <div class="numeros">
                     <div class="numero">
-                        <span>33</span><br>
-                        YEARS OF PRACTICE
+                        <span>7</span><br>
+                        ANOS DE PRÁTICA
                     </div>
                     <div class="numero">
-                        <span>12</span><br>
-                        AWARDS WON
+                        <span>5</span><br>
+                        PRÊMIOS
                     </div>
                     <div class="numero">
-                        <span>987</span><br>
-                        HAPPY CLIENTS
+                        <span>368</span><br>
+                        CLIENTES SATISFEITOS
                     </div>
                     <div class="declaracao">
-                        My treatments will help you change "unhelpful patterns" of beliefs, thinking,
-                        feelings and behaviours.
+                        Meus tratamentos ajudarão você a mudar "padrões indesejados" de crenças, pensamentos,
+                        sentimentos e comportamentos.
                     </div>
                 </div>
 
@@ -184,7 +192,7 @@
                 Talita tocou meu coração profundamente durante a fase em que eu estava desesperadamente precisando
                 de alguém para me ajudar.
             </q>
-            <p rel="author">Samantha Green</p>
+            <p rel="author">Samantha Ferreira</p>
             <p>Designer de interiores</p>
             <div class="botoes">
                 <a class="importante">Mais testemunhos</a>
