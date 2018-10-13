@@ -68,14 +68,14 @@
 }
 
 #stat {
-    background: url("gf01.png") no-repeat center left;
+    background: url("imagens-home/gf01.png") no-repeat center left;
     background-size: cover;
     margin: 2rem 0;
 }
 
 @media (min-width: 1024px) {
     #stat {
-        background: url("gf01.png") no-repeat center right;
+        background: url("imagens-home/gf01.png") no-repeat center right;
         background-size: contain;
     }
 }
@@ -260,4 +260,177 @@
 #artigos .botoes {
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+#testemunhos {
+    background: url("imagens-home/testemunho01.jpeg") #03131c no-repeat;
+    background-size: cover;
+    padding: 2rem 1rem;
+}
+
+#testemunhos > div {
+    margin: auto;
+    height: 100%;
+
+}
+
+#testemunhos h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#testemunhos q {
+    display: block;
+    color: #8b949c;
+    font-size: 1.1rem;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    #testemunhos q {
+        width: 50%;
+    }
+}
+
+#testemunhos .botoes {
+    margin: 1rem 0;
+    justify-content: flex-start;
+}
+
+#testemunhos p {
+    color: white;
+    font-weight: bold;
+}
+
+#testemunhos p[rel] {
+    font-size: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+    #testemunhos {
+        height: 707px;
+        background: url("imagens-home/testemunho01.jpeg") #03131c no-repeat;
+        background-size: cover;
+        padding: 4rem 0 0 0;
+    }
+
+    #testemunhos > div {
+        margin: auto;
+        width: var(--largura-maxima);
+        height: 100%;
+
+    }
+
+    #testemunhos h2 {
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    #testemunhos q {
+        display: block;
+        width: 50%;
+        color: #8b949c;
+        font-size: 2.5rem;
+        font-family: "Times New Roman", serif;
+        font-style: italic;
+        margin-bottom: 1rem;
+    }
+
+    #testemunhos .botoes {
+        margin: 1rem 0;
+        justify-content: flex-start;
+    }
+
+    #testemunhos p {
+        color: white;
+        font-weight: bold;
+    }
+
+    #testemunhos p[rel] {
+        font-size: 1.5rem;
+    }
+
+}
+
+#newsletter {
+    margin: 2rem auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#newsletter h2 {
+    font-size: 2rem;
+    text-align: center;
+    flex: 1 1 100%;
+    margin-bottom: 1rem;
+}
+
+#newsletter p {
+    font-size: 0.7rem;
+    color: #8b949c;
+    flex: 1 1 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#newsletter .wp-email {
+    flex: 1 0 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+#newsletter input {
+    display: block;
+    width: 100%;
+}
+
+#newsletter .botoes {
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+
+    #newsletter p {
+        flex: 0 0 25%;
+        text-align: left;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+
+
+    #newsletter .wp-email {
+        flex: 0 0 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #newsletter .botoes {
+        flex: 0 0 25%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+
+    #newsletter {
+        width: var(--largura-maxima);
+    }
+
+    #newsletter p {
+        font-size: 1rem;
+    }
+
 }

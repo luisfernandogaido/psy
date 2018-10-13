@@ -33,6 +33,15 @@ h1, h2, h3 {
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
+input {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    background: #f2f4f7;
+    border: 1px solid #eee;
+    color: #666;
+}
+
 header {
     height: 3.5rem;
     display: flex;
@@ -51,27 +60,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*background: url("../img/mind.png") no-repeat left 0.5rem center;*/
-    padding-left: 3.5rem;
-    background-size: 3rem;
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     font-size: 1.1rem;
     font-weight: bold;
     color: #fd7062;
 }
 
-@media (min-width: 768px) {
-    #logo {
-        /*background: url("../img/mind.png") no-repeat left 15rem center;*/
-        background-size: 3rem;
-    }
-}
-
 @media (min-width: 1024px) {
     #logo {
-        /*background: url("../img/mind.png") white no-repeat left center;*/
-        background-size: 3rem;
-        padding-left: 0;
         height: 6rem;
     }
 }
@@ -375,4 +371,141 @@ main {
     .botoes > a {
         margin-right: 0.5rem;
     }
+}
+
+#wp-footer {
+    background: #f2f4f7;
+}
+
+footer {
+    padding: 3rem 0 0 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+footer > .logo {
+    flex: 1 1 100%;
+}
+
+footer > .logo a {
+    display: block;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    color: #fd7062;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+footer > .logo p {
+    margin: 0 1rem;
+    font-size: 0.75rem;
+    color: #8b949c;
+    font-family: "Times New Roman", serif;
+    text-align: justify;
+}
+
+footer > .menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+footer > .menu a {
+    padding: 0.5rem 1rem;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 0.75rem;
+    color: #fd7062;
+}
+
+footer > .contato {
+    flex: 1 1 100%;
+    margin: 1rem 0;
+}
+
+footer > .contato p {
+    padding: 0.5rem 3.5rem;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+}
+
+footer > .contato p.home {
+    background: url("../img/home-gray.svg") left 1rem center no-repeat;
+}
+
+footer > .contato p.phone {
+    background: url("../img/phone-gray.svg") left 1rem center no-repeat;
+}
+
+footer > .contato p.phone a {
+    display: block;
+    color: #fd7062;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+footer > .contato p.clock {
+    background: url("../img/clock-gray.svg") left 1rem center no-repeat;
+}
+
+#wp-footer .marca {
+    padding: 1rem;
+    background: #8b949c;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+#wp-footer .marca a {
+    color: white;
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+
+    footer > .logo p {
+        font-size: 1rem;
+    }
+
+    footer > .menu {
+        flex: 0 0 60%;
+        flex-flow: column wrap;
+        height: 14rem;
+        justify-content: flex-start;
+    }
+
+    footer > .contato {
+        flex: 0 0 40%;
+    }
+}
+
+@media (min-width: 1024px) {
+    footer {
+        width: var(--largura-maxima);
+        margin: auto;
+    }
+
+    footer > .logo {
+        flex: 0 0 25%;
+    }
+
+    footer > .logo a {
+        text-align: left;
+    }
+
+    footer > .logo p {
+        margin: 0;
+    }
+
+    footer > .menu {
+        flex: 0 0 calc(50% - 6rem);
+        margin-left: 6rem;
+    }
+
+    footer > .contato {
+        flex: 0 0 25%;
+    }
+
 }
