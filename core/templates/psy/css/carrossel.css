@@ -5,7 +5,10 @@
 }
 
 .carrossel img {
-    height: 100%;
+    height: auto;
+    width: 100%;
+    /*height: auto;*/
+    /*width: 100%;*/
     display: block;
     position: absolute;
     top: 0;
@@ -13,6 +16,11 @@
     opacity: 0;
     transition: all 1s ease;
     z-index: 0;
+}
+
+.carrossel img.muito-deitada {
+    height: 100%;
+    width: auto;
 }
 
 .carrossel img.visivel {
