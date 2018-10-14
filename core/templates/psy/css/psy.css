@@ -95,7 +95,7 @@ header .contato {
 
 header .contato div {
     padding-left: 2.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     font-size: 0.9rem;
     font-weight: bold;
 }
@@ -112,8 +112,10 @@ header .contato div.phone a {
 }
 
 header .contato div.clock {
-    background: url("../img/clock-white.svg") left top no-repeat;
+    background: url("../img/clock-white.svg") left center no-repeat;
     background-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
 }
 
 header .contato div.home {
