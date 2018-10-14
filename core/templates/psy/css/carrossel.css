@@ -36,7 +36,7 @@
     position: absolute;
     left: 0;
     bottom: 1rem;
-    height: 1.5rem;
+    height: 2.5rem;
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
@@ -46,13 +46,25 @@
 
 .carrossel .botoes a {
     background: white;
-    flex: 0 0 1.5rem;
-    height: 1.5rem;
+    flex: 0 0 2.5rem;
+    height: 2.5rem;
     margin: 0 0.25rem;
     border-radius: 50%;
     opacity: 0.25;
     transition: all 1s ease;
     padding: 0;
+}
+
+@media (min-width: 1024px) {
+
+    .carrossel .botoes {
+        height: 1.5rem;
+    }
+
+    .carrossel .botoes a {
+        flex: 0 0 1.5rem;
+        height: 1.5rem;
+    }
 }
 
 .carrossel .botoes a.sel {
