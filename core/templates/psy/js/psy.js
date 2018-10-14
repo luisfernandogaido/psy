@@ -183,3 +183,13 @@ let Tela = {
 
 Header.ini();
 Tela.ini();
+document.getElementById('to-top').addEventListener('click', function() {
+  document.scrollingElement.scrollTop = 0;
+});
+window.addEventListener('scroll', function() {
+  if (document.scrollingElement.scrollTop) {
+    document.getElementById('to-top').classList.add('visivel');
+  } else {
+    document.getElementById('to-top').classList.remove('visivel');
+  }
+});

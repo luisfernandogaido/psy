@@ -27,6 +27,9 @@
 </header>
 <main>
     <?= $this->corpo ?>
+
+    <div id="to-top"></div>
+
 </main>
 <?php include RAIZ . "core/templates/psy/inc/footer.html.php" ?>
 <script>
