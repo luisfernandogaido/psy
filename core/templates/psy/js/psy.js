@@ -181,15 +181,33 @@ let Tela = {
 
 };
 
-Header.ini();
-Tela.ini();
-document.getElementById('to-top').addEventListener('click', function() {
-  document.scrollingElement.scrollTop = 0;
-});
-window.addEventListener('scroll', function() {
-  if (document.scrollingElement.scrollTop) {
-    document.getElementById('to-top').classList.add('visivel');
-  } else {
-    document.getElementById('to-top').classList.remove('visivel');
-  }
-});
+(function() {
+
+  Header.ini();
+  Tela.ini();
+
+  document.getElementById('to-top').addEventListener('click', function() {
+    document.scrollingElement.scrollTop = 0;
+  });
+  window.addEventListener('scroll', function() {
+    if (document.scrollingElement.scrollTop) {
+      document.getElementById('to-top').classList.add('visivel');
+    } else {
+      document.getElementById('to-top').classList.remove('visivel');
+    }
+  });
+
+  let observer = new MutationObserver(function() {
+    let botoes = document.querySelectorAll('.botoes a:not([href])');
+    for (let i = 0; i < botoes.length; i++) {
+      botoes[i].href = 'javascript:void(0)';
+    }
+  });
+  observer.observe(document.body, {
+    childList: true,
+    attributes: true,
+    characterData: true,
+    subtree: true,
+  });
+
+})();
