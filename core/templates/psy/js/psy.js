@@ -106,7 +106,6 @@ let Header = {
       document.body.addEventListener('click', function() {
         let sub = document.querySelector('menu div.sub.visivel');
         if (sub) {
-          console.log('parece que isso funciona...');
           sub.classList.remove('visivel');
         }
       });
