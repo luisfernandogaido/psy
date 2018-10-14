@@ -2,6 +2,11 @@
     height: var(--altura-util);
     overflow: hidden;
     position: relative;
+    visibility: hidden;
+}
+
+.carrossel.visivel {
+    visibility: visible;
 }
 
 .carrossel img {

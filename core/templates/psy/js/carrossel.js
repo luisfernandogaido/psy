@@ -57,6 +57,7 @@ let Carrossel = {
     carrossel.appendChild(botoes);
     let a;
     let imgs = carrossel.querySelectorAll('img');
+    let imagensCarregadas = 0;
     for (let i = 0; i < imgs.length; i++) {
       imgs[i].dataset.ordem = i.toString();
       a = document.createElement('a');
@@ -65,6 +66,15 @@ let Carrossel = {
         Carrossel.mostra(this);
       });
       botoes.appendChild(a);
+      let im = new Image();
+      im.addEventListener('load', function() {
+        imagensCarregadas++;
+        if (imagensCarregadas == imgs.length) {
+          carrossel.classList.add('visivel');
+          botoes.querySelector('a').click();
+        }
+      });
+      im.src = imgs[i].src;
     }
     let letreiro = document.createElement('div');
     letreiro.className = 'letreiro';
@@ -75,7 +85,6 @@ let Carrossel = {
     linha2.className = 'linha2';
     letreiro.appendChild(linha2);
     carrossel.appendChild(letreiro);
-    botoes.querySelector('a').click();
   },
 };
 
