@@ -34,10 +34,9 @@ h1, h2, h3 {
 }
 
 input {
-    border: none;
     outline: none;
     padding: 1rem;
-    background: #f2f4f7;
+    background: white;
     border: 1px solid #eee;
     color: #666;
 }
@@ -191,6 +190,8 @@ menu .sub.visivel {
 
 main {
     margin: 0 1rem;
+    background: #f2f4f7;
+
 }
 
 #wp-menu {
@@ -525,6 +526,11 @@ footer > .contato p.clock {
     opacity: 0.75;
 }
 
+#to-top:hover {
+    opacity: 1;
+}
+
 #to-top.visivel {
     display: block;
 }
+

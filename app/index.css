@@ -5,6 +5,7 @@
 #perfil {
     display: flex;
     flex-flow: row wrap;
+    margin-top: 2rem;
 }
 
 #perfil > div {
@@ -370,7 +371,7 @@
 }
 
 #newsletter {
-    margin: 2rem auto;
+    margin: 2rem auto auto auto;
     display: flex;
     flex-flow: row wrap;
 }
