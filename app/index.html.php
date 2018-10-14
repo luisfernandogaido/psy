@@ -31,7 +31,7 @@
                 <h2>TALITA BASTOS, MCED, MA, LMHP, CPC</h2>
                 <h1>Bem-vindo à minha clínica</h1>
                 <p>
-                    Como psicóloga e terapeuta cognitiva-comportamental eu tenho trabalho com centenas de pacientes e
+                    Como psicóloga e terapeuta cognitiva-comportamental eu tenho trabalhado com centenas de pacientes e
                     entendido as complexidades de vários problemas psicológicos que as pessoas enfrentam.
                     Meu trabalho gira em torno de ser amigável.
                 </p>
