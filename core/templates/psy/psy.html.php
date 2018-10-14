@@ -6,7 +6,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Psy</title>
+    <title><?= $this->nome ?></title>
     <link rel="icon" href="<?= SITE ?>core/templates/psy/img/favicon.ico?<?= CSSJSV ?>" type="image/x-icon">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -19,7 +19,7 @@
 <header>
     <a id="hamburguer"></a>
     <a id="logo" href="<?= SITE ?>app/index.php">
-        Talita Bastos
+        <?= $this->nome ?>
     </a>
     <a id="call"></a>
     <?php include RAIZ . "core/templates/psy/inc/contato.html.php" ?>

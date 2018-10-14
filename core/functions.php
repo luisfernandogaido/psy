@@ -6,3 +6,12 @@ function autoload($classe)
         include $arquivo;
     }
 }
+
+function conf(string $configuracao): array
+{
+    $arquivo = RAIZ . 'conf/' . $configuracao . '.php';
+    if (!file_exists($arquivo)) {
+        throw new \Exception('Configuração ' . $configuracao . ' inexistente.');
+    }
+    return include($arquivo);
+}

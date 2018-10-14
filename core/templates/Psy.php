@@ -12,6 +12,18 @@ class Psy
     public $corpo;
     public $js;
 
+    public $nome;
+
+    /**
+     * Psy constructor.
+     */
+    public function __construct()
+    {
+        $conf = conf('sistema');
+        $this->nome = $conf['nome'];
+        define('CSSJSV', $conf['versao_css_js']);
+    }
+
     public function iniCss()
     {
         ob_start();

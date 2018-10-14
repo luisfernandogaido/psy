@@ -28,7 +28,7 @@
                 <img src="imagens-home/doctor.jpeg">
             </div>
             <div class="resumo">
-                <h2>TALITA BASTOS, MCED, MA, LMHP, CPC</h2>
+                <h2><?= strtoupper($template->nome) ?>, MCED, MA, LMHP, CPC</h2>
                 <h1>Bem-vindo à minha clínica</h1>
                 <p>
                     Como psicóloga e terapeuta cognitiva-comportamental eu tenho trabalhado com centenas de pacientes e

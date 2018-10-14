@@ -1,7 +1,8 @@
+<?php /* @var $this templates\Psy */ ?>
 <div id="wp-footer">
     <footer>
         <div class="logo">
-            <a href="<?= SITE ?>app/index.php">Talita Bastos</a>
+            <a href="<?= SITE ?>app/index.php"><?= $this->nome ?></a>
             <p>
                 Em minha clínica, eu procuro retomar a vida de meus pacientes a partir do ponto em que estão
                 e canalizar suas energias negativas para fora de uma maneira bem coordenada.
@@ -35,7 +36,7 @@
         </div>
     </footer>
     <div class="marca">
-        Talita Bastos &copy; 2018 - <?= date('Y') ?>
+        <?= $this->nome ?> &copy; 2018 - <?= date('Y') ?>
         <a href="<?= SITE ?>app/index.php">Política de Privacidade</a>
     </div>
 </div>
