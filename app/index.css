@@ -1,0 +1,456 @@
+main {
+    background: #f2f4f7;
+}
+
+#wp-perfil {
+    background: #f2f4f7;
+}
+
+#perfil {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 2rem;
+}
+
+#perfil > div {
+    flex: 0 0 100%;
+}
+
+#perfil .foto img {
+    display: block;
+    width: 100%;
+}
+
+#perfil .resumo {
+    padding: 1rem;
+}
+
+#perfil h1, #perfil h2, #perfil h3 {
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+#perfil h2 {
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    color: #8b949c;
+}
+
+#perfil h1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+#perfil h3 {
+    color: black;
+}
+
+#perfil p {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+
+    #perfil > div {
+        flex: 1 1 50%;
+    }
+
+    #perfil .resumo {
+        padding-top: 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    #perfil {
+        width: var(--largura-maxima);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #perfil h1 {
+        font-size: 2rem;
+    }
+
+    #perfil .resumo {
+        padding-top: 8rem;
+    }
+
+}
+
+#stat {
+    background: url("imagens-home/gf01.png") no-repeat center left;
+    background-size: cover;
+    margin: 2rem 0;
+}
+
+@media (min-width: 1024px) {
+    #stat {
+        background: url("imagens-home/gf01.png") no-repeat center right;
+        background-size: contain;
+    }
+}
+
+#stat > div {
+    max-width: var(--largura-maxima);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#stat > div > div {
+    flex: 1 1 100%;
+}
+
+@media (min-width: 768px) {
+    #stat > div > div {
+        flex: 1 1 50%;
+    }
+}
+
+#stat h1 {
+    color: black;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 900;
+}
+
+@media (min-width: 768px) {
+    #stat h1 {
+        text-align: left;
+        font-size: 2rem;
+    }
+}
+
+#stat .item {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#stat .simbolo, #stat h4, #stat p {
+    flex: 1 1 100%;
+}
+
+#stat .simbolo {
+    height: 3rem;
+}
+
+#stat .simbolo a {
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background: no-repeat center #f2f4f7;
+}
+
+#stat .simbolo a.notification {
+    background-image: url("../core/templates/psy/img/notification.svg");
+}
+
+#stat .simbolo a.group {
+    background-image: url("../core/templates/psy/img/group.svg");
+}
+
+#stat .simbolo a.favorite {
+    background-image: url("../core/templates/psy/img/favorite.svg");
+}
+
+#stat h4 {
+    text-align: center;
+    margin: 1.5rem;
+    color: #fd7062;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+}
+
+#stat p {
+    font-family: "Times New Roman", serif;
+    color: #8b949c;
+}
+
+#stat .numeros {
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    color: white;
+    background: rgba(65, 68, 71, 0.8);
+    height: calc(100% - 2rem);
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+}
+
+#stat .numero {
+    flex: 1 1 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+#stat .numero span {
+    font-size: 3rem;
+}
+
+#stat .declaracao {
+    margin-top: 2rem;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#artigos {
+    background: url("../core/templates/psy/img/fundos/m.png") center fixed;
+    background-size: cover;
+}
+
+#artigos > div {
+    padding: 2rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+@media (min-width: 1024px) {
+    #artigos > div {
+        margin: auto;
+        width: var(--largura-maxima);
+    }
+}
+
+#artigos h2 {
+    flex: 1 1 100%;
+    font-size: 1.94rem;
+    text-align: left;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#artigos .artigo {
+    flex: 0 1 100%;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    #artigos .artigo {
+        flex: 0 1 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #artigos .artigo {
+        flex: 0 1 calc(100% / 3);
+    }
+}
+
+#artigos .artigo .card {
+    background: rgba(255, 255, 255, 0.8);
+    margin: 1rem;
+    padding: 1rem 0;
+    /*height: 100%;*/
+}
+
+#artigos .artigo h3 {
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+#artigos .artigo time {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #8b949c;
+}
+
+#artigos .artigo img {
+    display: block;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+#artigos .botoes {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#testemunhos {
+    background: url("imagens-home/testemunho01.jpeg") #03131c no-repeat;
+    background-size: cover;
+    padding: 2rem 1rem;
+}
+
+#testemunhos > div {
+    margin: auto;
+    height: 100%;
+
+}
+
+#testemunhos h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#testemunhos q {
+    display: block;
+    color: #8b949c;
+    font-size: 1.1rem;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    #testemunhos q {
+        width: 50%;
+    }
+}
+
+#testemunhos .botoes {
+    margin: 1rem 0;
+    justify-content: flex-start;
+}
+
+#testemunhos p {
+    color: white;
+    font-weight: bold;
+}
+
+#testemunhos p[rel] {
+    font-size: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+    #testemunhos {
+        height: 707px;
+        background: url("imagens-home/testemunho01.jpeg") #03131c no-repeat;
+        background-size: cover;
+        padding: 4rem 0 0 0;
+    }
+
+    #testemunhos > div {
+        margin: auto;
+        width: var(--largura-maxima);
+        height: 100%;
+
+    }
+
+    #testemunhos h2 {
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    #testemunhos q {
+        display: block;
+        width: 50%;
+        color: #8b949c;
+        font-size: 2.5rem;
+        font-family: "Times New Roman", serif;
+        font-style: italic;
+        margin-bottom: 1rem;
+    }
+
+    #testemunhos .botoes {
+        margin: 1rem 0;
+        justify-content: flex-start;
+    }
+
+    #testemunhos p {
+        color: white;
+        font-weight: bold;
+    }
+
+    #testemunhos p[rel] {
+        font-size: 1.5rem;
+    }
+
+}
+
+#newsletter {
+    margin: 2rem auto auto auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#newsletter h2 {
+    font-size: 2rem;
+    text-align: center;
+    flex: 1 1 100%;
+    margin-bottom: 1rem;
+}
+
+#newsletter p {
+    font-size: 0.7rem;
+    color: #8b949c;
+    flex: 1 1 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#newsletter .wp-email {
+    flex: 1 0 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+#newsletter input {
+    display: block;
+    width: 100%;
+}
+
+#newsletter .botoes {
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+
+    #newsletter h2 {
+        text-align: left;
+    }
+
+    #newsletter p {
+        flex: 0 0 25%;
+        text-align: left;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+
+    #newsletter .wp-email {
+        flex: 0 0 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #newsletter .botoes {
+        flex: 0 0 25%;
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    #newsletter {
+        width: var(--largura-maxima);
+    }
+
+    #newsletter p {
+        font-size: 1rem;
+    }
+
+}
