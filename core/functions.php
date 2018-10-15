@@ -15,3 +15,21 @@ function conf(string $configuracao): array
     }
     return include($arquivo);
 }
+
+function d($var)
+{
+    echo '<pre>';
+    print_r($var);
+    echo '</pre>';
+}
+
+function dd($var)
+{
+    d($var);
+    exit;
+}
+
+function deltaT()
+{
+    return microtime(true) - $_SERVER['REQUEST_TIME_FLOAT'];
+}

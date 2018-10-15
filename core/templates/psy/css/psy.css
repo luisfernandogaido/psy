@@ -190,8 +190,7 @@ menu .sub.visivel {
 
 main {
     margin: 0 1rem;
-    background: #f2f4f7;
-
+    min-height: calc(100vh - 3.5rem);
 }
 
 #wp-menu {
@@ -206,6 +205,8 @@ main {
 
     #logo {
         flex: 0 1 25%;
+        justify-content: flex-start;
+        padding-left: 1rem;
     }
 
     #hamburguer, #call {
@@ -263,6 +264,15 @@ main {
         left: 0;
         top: 0;
         height: 3.5rem;
+        width: calc(100vw - 17px);
+        background: #8b949c;
+    }
+
+    .touch #wp-menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 3.5rem;
         width: 100vw;
         background: #8b949c;
     }
@@ -277,11 +287,16 @@ main {
         overflow: visible;
         transition: none;
         background: transparent;
+        justify-content: space-between;
     }
 
     menu > a {
         transition: all 0.5s ease;
         padding: 1rem 2rem 1rem 1rem;
+    }
+
+    menu > a:last-child {
+        padding-right: 0;
     }
 
     menu a {
@@ -461,6 +476,12 @@ footer > .contato p.clock {
     margin-bottom: 3.5rem;
 }
 
+@media (min-width: 1024px) {
+    #wp-footer .marca {
+        margin-bottom: 0;
+    }
+}
+
 #wp-footer .marca a {
     color: white;
     text-decoration: underline;
@@ -534,3 +555,8 @@ footer > .contato p.clock {
     display: block;
 }
 
+@media (min-width: 1024px) {
+    #to-top.visivel, #to-top.visivel {
+        display: none;
+    }
+}

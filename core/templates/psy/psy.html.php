@@ -38,5 +38,6 @@
 <script src="<?= SITE ?>core/js/core.js?<?= CSSJSV ?>"></script>
 <script src="<?= SITE ?>core/templates/psy/js/psy.js?<?= CSSJSV ?>"></script>
 <?= $this->js ?>
+<!-- <?= deltaT() ?> -->
 </body>
 </html>

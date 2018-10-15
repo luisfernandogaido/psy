@@ -170,6 +170,9 @@ let Tela = {
 
   ini: function() {
     Tela.device = Tela.getDevice();
+    if (Tela.device.touch) {
+      document.body.classList.add('touch');
+    }
     window.addEventListener('resize', function() {
       let device = Tela.getDevice();
       if (device.size != Tela.device.size || device.touch != Tela.device.touch) {
