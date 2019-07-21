@@ -16,7 +16,7 @@
             <a href="<?= SITE ?>app/index.php">Terapia de ansiedade</a>
             <a href="<?= SITE ?>app/index.php">Terapia de casal</a>
         </div>
-        <a href="<?= SITE ?>app/index.php">Blog</a>
+        <a href="<?= SITE ?>app/blog/index.php">Blog</a>
         <a href="<?= SITE ?>app/index.php">Localização</a>
     </menu>
 </div>

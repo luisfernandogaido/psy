@@ -25,6 +25,10 @@ a {
     text-decoration: none;
 }
 
+a[href] {
+    cursor: pointer;
+}
+
 html, body {
     overflow: auto;
 }
@@ -374,6 +378,10 @@ main {
     margin: 0.25rem 0;
     text-align: center;
     cursor: default;
+}
+
+.botoes > a[href] {
+    cursor: pointer;
 }
 
 .botoes > a.importante {

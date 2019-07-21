@@ -96,18 +96,18 @@
 
             <div class="artigo">
                 <div class="card">
-                    <time datetime="2017-03-25 20:00">25 MARÇO 2017</time>
-                    <h3>Insônia: Terapia Cognitica Comportamental</h3>
+                    <time datetime="2019-07-21 11:05">21 JULHO 2019</time>
+                    <h3>A Pilot Study</h3>
                     <img src="imagens-home/artigo01.jpeg">
                     <div class="botoes">
-                        <a class="importante">Ler artigo</a>
+                        <a class="importante" href="blog/a-pilot-study/">Ler artigo</a>
                     </div>
                 </div>
             </div>
 
             <div class="artigo">
                 <div class="card">
-                    <time datetime="2017-03-14 20:00">14 MARÇO 2017</time>
+                    <time datetime="2018-10-12 17:56">12 OUTUBRO 2018</time>
                     <h3>Aconselhamento matrimonial e terapia em família</h3>
                     <img src="imagens-home/artigo02.jpeg">
                     <div class="botoes">
