@@ -1,5 +1,5 @@
 <?php
 return [
-    'nome' => 'Dennise Richardson',
+    'nome' => 'Talita Bastos',
     'versao_css_js' => 4,
 ];
