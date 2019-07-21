@@ -221,7 +221,7 @@ main {
     background: rgba(255, 255, 255, 0.8);
     margin: 1rem;
     padding: 1rem 0;
-    /*height: 100%;*/
+    height: calc(100% - 2rem);
 }
 
 #artigos .artigo h3 {
