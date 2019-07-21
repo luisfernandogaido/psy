@@ -163,21 +163,6 @@
         </div>
     </div>
 
-    <div id="testemunhos">
-        <div>
-            <h2>Testemunhos</h2>
-            <q>
-                Talita tocou meu coração profundamente durante a fase em que eu estava desesperadamente precisando
-                de alguém para me ajudar.
-            </q>
-            <p rel="author">Samantha Ferreira</p>
-            <p>Designer de interiores</p>
-            <div class="botoes">
-                <a class="importante">Mais testemunhos</a>
-            </div>
-        </div>
-    </div>
-
     <div id="newsletter">
 
         <h2>Notícias</h2>
