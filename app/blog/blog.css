@@ -1,0 +1,29 @@
+h1 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+#artigo {
+    margin: 0 1rem 1rem 1rem;
+}
+
+@media (min-width: 1024px) {
+    #artigo {
+        width: 708px;
+        margin: 0 auto 1rem auto;
+    }
+}
+
+h2, h3 {
+    margin: 1.5rem 0;
+}
+
+#artigo p {
+    text-align: justify;
+    vertical-align: bottom;
+    margin-bottom: 1rem;
+}
+
+#artigo p img {
+    vertical-align: bottom;
+}
