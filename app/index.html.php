@@ -116,50 +116,6 @@
                 </div>
             </div>
 
-            <div class="artigo">
-                <div class="card">
-                    <time datetime="2017-03-07 20:00">07 MARÇO 2017</time>
-                    <h3>Regras Importantes para Pais Adolescentes</h3>
-                    <img src="imagens-home/artigo03.jpeg">
-                    <div class="botoes">
-                        <a class="importante">Ler artigo</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="artigo">
-                <div class="card">
-                    <time datetime="2017-03-25 20:00">25 MARÇO 2017</time>
-                    <h3>Insônia: Terapia Cognitica Comportamental</h3>
-                    <img src="imagens-home/artigo01.jpeg">
-                    <div class="botoes">
-                        <a class="importante">Ler artigo</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="artigo">
-                <div class="card">
-                    <time datetime="2017-03-14 20:00">14 MARÇO 2017</time>
-                    <h3>Aconselhamento matrimonial e terapia em família</h3>
-                    <img src="imagens-home/artigo02.jpeg">
-                    <div class="botoes">
-                        <a class="importante">Ler artigo</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="artigo">
-                <div class="card">
-                    <time datetime="2017-03-07 20:00">07 MARÇO 2017</time>
-                    <h3>Regras Importantes para Pais Adolescentes</h3>
-                    <img src="imagens-home/artigo03.jpeg">
-                    <div class="botoes">
-                        <a class="importante">Ler artigo</a>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 
