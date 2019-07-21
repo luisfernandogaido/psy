@@ -86,28 +86,6 @@
 
             </div>
 
-            <div>
-
-                <div class="numeros">
-                    <div class="numero">
-                        <span>7</span><br>
-                        ANOS DE PRÁTICA
-                    </div>
-                    <div class="numero">
-                        <span>5</span><br>
-                        PRÊMIOS
-                    </div>
-                    <div class="numero">
-                        <span>368</span><br>
-                        CLIENTES SATISFEITOS
-                    </div>
-                    <div class="declaracao">
-                        Meus tratamentos ajudarão você a mudar "padrões indesejados" de crenças, pensamentos,
-                        sentimentos e comportamentos.
-                    </div>
-                </div>
-
-            </div>
         </div>
     </div>
 
