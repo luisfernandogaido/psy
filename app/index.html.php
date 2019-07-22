@@ -28,12 +28,28 @@
                 <img src="imagens-home/doctor.jpeg">
             </div>
             <div class="resumo">
-                <h2><?= strtoupper($template->nome) ?>, MCED, MA, LMHP, CPC</h2>
-                <h1>Bem-vindo à minha clínica</h1>
+                <h2><?= strtoupper('Talita Meneses de Almeida Bastos') ?></h2>
+                <h1>Seja bem-vindo</h1>
                 <p>
-                    Como psicóloga e terapeuta cognitiva-comportamental eu tenho trabalhado com centenas de pacientes e
-                    entendido as complexidades de vários problemas psicológicos que as pessoas enfrentam.
-                    Meu trabalho gira em torno de ser amigável.
+                    Psicóloga, Mestranda em Ciências Médicas pelo Departamento de Neurologia FCM / Unicamp direcionada
+                    ao Transtorno do Espectro Autista (TEA). Psicóloga clínica com principal atuação em avaliação
+                    psicológica e neuropsicológica em crianças e adolescentes. Possuí aprimoramento em Psicologia
+                    Clínica aplicada a Neurologia Infantil, especialização em Neuropsicologia aplicada em Neurologia
+                    Infantil e especialização em Psicomotricidade pela Universidade Estadual de Campinas – Unicamp.
+                    Pesquisadora da equipe interdisciplinar do DISAPRE - Laboratório de pesquisa em dificuldades,
+                    distúrbios de aprendizagem e transtornos da atenção. Professora convidada dos cursos de
+                    especialização em Neuropsicologia aplicada a Neurologia Infantil, FCM Unicamp e das disciplinas de
+                    Funções Corticais Superiores da Graduação de Fonoaudiologia, Enfermagem e Medicina/Unicamp.
+                    Orientadora convidada e membro de bancas de trabalho de conclusão de curso (TCC) do curso de
+                    Especialização em Neuropsicologia aplicada a Neurologia Infantil, FCM Unicamp. Membro do CEP da
+                    Universidade Municipal de São Caetano do Sul – USCS, na qual realizo avaliação e relatoria de
+                    projetos de pesquisa submetidos a Plataforma Brasil direcionados a Universidade. Sócia da Associação
+                    Brasileira de Neurologia e Psiquiatria Infantil e Profissões Afins (ABENEPI). Atuou como
+                    pesquisadora voluntária do Laboratório de Distúrbios do Desenvolvimento do Instituto de Psicologia
+                    da USP com o trabalho direcionado a avaliação psicológica de crianças e adolescentes em equipe
+                    multidisciplinar, atuação clínica na Policlínica / APAE - SCS nas áreas de Psicologia e
+                    Psicomotricidade, direcionado aos Transtornos do Neurodesenvolvimento, Síndromes Genéticas e
+                    problemas psicológicos.
                 </p>
                 <h3>MB, Harvard University</h3>
                 <h3>MMed, University of Michigan</h3>
@@ -49,16 +65,15 @@
         <div>
             <div>
 
-                <h1>Meu perfil</h1>
+                <h1>Minhas atuações</h1>
 
                 <div class="item">
                     <div class="simbolo">
                         <a class="notification"></a>
                     </div>
-                    <h4>Terapia de ansiedade</h4>
+                    <h4>Avaliação Psicológica</h4>
                     <p>
-                        Quando é necessário tratar desordens de ansiedade, pesquisas mostram que a terapia é geralmente
-                        a opção mais efetiva.
+                        (resumo e texto maior)
                     </p>
                 </div>
 
@@ -66,10 +81,9 @@
                     <div class="simbolo">
                         <a class="group"></a>
                     </div>
-                    <h4>Terapia de grupo</h4>
+                    <h4>Avaliação Neuropsicológica</h4>
                     <p>
-                        Terapia de grupo envolve um ou mais psicólogos que conduzem um grupo de aproximadamente
-                        cinco a quinze pacientes.
+                        (resumo e texto maior)
                     </p>
                 </div>
 
@@ -77,10 +91,29 @@
                     <div class="simbolo">
                         <a class="favorite"></a>
                     </div>
-                    <h4>Terapia de casais</h4>
+                    <h4>Intervenção Psicológica</h4>
                     <p>
-                        Terapia de casais é orientada para resolver os problemas que o casal está enfrentando um com
-                        o outro.
+                        (resumo e texto maior)
+                    </p>
+                </div>
+
+                <div class="item">
+                    <div class="simbolo">
+                        <a class="favorite"></a>
+                    </div>
+                    <h4>Orientação / Psicoeducação</h4>
+                    <p>
+                        (para os pais de crianças e adolescentes)
+                    </p>
+                </div>
+
+                <div class="item">
+                    <div class="simbolo">
+                        <a class="favorite"></a>
+                    </div>
+                    <h4>Orientação / Psicoeducação</h4>
+                    <p>
+                        (para os pais de crianças e adolescentes)
                     </p>
                 </div>
 
@@ -107,11 +140,11 @@
 
             <div class="artigo">
                 <div class="card">
-                    <time datetime="2018-10-12 17:56">12 OUTUBRO 2018</time>
-                    <h3>Aconselhamento matrimonial e terapia em família</h3>
-                    <img src="imagens-home/artigo02.jpeg">
+                    <time datetime="2019-07-21 11:05">21 JULHO 2019</time>
+                    <h3>A Pilot Study</h3>
+                    <img src="imagens-home/artigo01.jpeg">
                     <div class="botoes">
-                        <a class="importante">Ler artigo</a>
+                        <a class="importante" href="blog/a-pilot-study/">Ler artigo</a>
                     </div>
                 </div>
             </div>
