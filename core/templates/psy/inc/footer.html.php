@@ -11,17 +11,19 @@
         </div>
         <div class="menu">
             <a href="<?= SITE ?>app/index.php">HOME</a>
-            <a href="<?= SITE ?>app/index.php">SOBRE</a>
-            <a href="<?= SITE ?>app/index.php">AGENDA</a>
-            <a href="<?= SITE ?>app/index.php">SERVIÇOS</a>
-            <a href="<?= SITE ?>app/blog/index.php">BLOG</a>
-            <a href="<?= SITE ?>app/index.php">LOCALIZAÇÃO</a>
-            <a href="<?= SITE ?>app/index.php">DEPRESSÃO</a>
-            <a href="<?= SITE ?>app/index.php">ANSIEDADE</a>
-            <a href="<?= SITE ?>app/index.php">CASAIS</a>
-            <a href="<?= SITE ?>app/index.php">INDIVIDUAL</a>
-            <a href="<?= SITE ?>app/index.php">PÓS-DIVÓRCIO</a>
-            <a href="<?= SITE ?>app/index.php">CRIANÇAS</a>
+            <a href="<?= SITE ?>app/perfil.php">PERFIL</a>
+            <a href="<?= SITE ?>app/producao-bibliografica.php">PRODUÇÃO BIBLIOGRÁFICA</a>
+            <a href="<?= SITE ?>app/eventos.php">EVENTOS</a>
+            <a href="<?= SITE ?>app/servicos/avaliacao-psicologica.php">AVALIAÇÃO PSICOLÓGICA</a>
+            <a href="<?= SITE ?>app/servicos/avaliacao-neuropsicologica.php">AVALIAÇÃO NEUROPSICOLÓGICA</a>
+            <a href="<?= SITE ?>app/servicos/intervencao.php">INTERVENÇÃO</a>
+            <a href="<?= SITE ?>app/servicos/orientacao-psicoeducacao.php">PSICOEDUCAÇÃO</a>
+            <a href="<?= SITE ?>app/servicos/supervisao.php">SUPERVISÃO</a>
+            <a href="<?= SITE ?>app/servicos/cursos.php">CURSOS</a>
+            <a href="<?= SITE ?>app/blog/index.php">ARTIGOS</a>
+            <a href="<?= SITE ?>app/blog/leituras-indicadas.php">LEITURAS INDICADAS</a>
+            <a href="<?= SITE ?>app/parcerias.php">PARCERIAS</a>
+            <a href="<?= SITE ?>app/localizacao.php">LOCALIZAÇÃO</a>
         </div>
         <div class="contato">
             <p class="phone">
