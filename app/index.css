@@ -132,6 +132,11 @@ main {
     background: rgba(255, 255, 255, 0.5);
 }
 
+#stat h1 {
+    color: black;
+}
+
+
 @media (min-width: 768px) {
 
     #stat #servicos .item {
@@ -209,6 +214,7 @@ main {
 }
 
 #artigos h2 {
+    color: black;
     flex: 1 1 100%;
     font-size: 1.94rem;
     text-align: left;
