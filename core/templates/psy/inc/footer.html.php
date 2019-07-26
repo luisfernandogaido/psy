@@ -39,6 +39,5 @@
     </footer>
     <div class="marca">
         <?= $this->nome ?> &copy; 2018 - <?= date('Y') ?>
-        <a href="<?= SITE ?>app/index.php">Política de Privacidade</a>
     </div>
 </div>
