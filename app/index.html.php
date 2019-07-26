@@ -151,7 +151,7 @@
 
         <h2>Notícias</h2>
         <p>
-            Mantenha-se informado sobre as últimas notícias e eventos.
+            Mantenha-se informado sobre as últimas notícias, artigos e eventos.
         </p>
         <div class="wp-email">
             <input type="email" placeholder="Digite aqui seu e-mail">
