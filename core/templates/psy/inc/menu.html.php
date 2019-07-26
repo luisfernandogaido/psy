@@ -3,6 +3,7 @@
         <a href="<?= SITE ?>app/index.php">Home</a>
         <a href="<?= SITE ?>app/index.php" class="sub">Sobre</a>
         <div class="sub">
+            <a href="<?= SITE ?>app/perfil.php">Perfil</a>
             <a href="<?= SITE ?>app/index.php">FAQ</a>
             <a href="<?= SITE ?>app/index.php">Visão geral</a>
             <a href="<?= SITE ?>app/index.php">Imprensa</a>

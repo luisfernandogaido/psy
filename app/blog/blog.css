@@ -1,8 +1,3 @@
-h1 {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-}
-
 #artigo {
     margin: 0 1rem 1rem 1rem;
 }
@@ -12,6 +7,15 @@ h1 {
         width: 708px;
         margin: 0 auto 1rem auto;
     }
+
+    #artigo h1 {
+        margin-left: 0;
+    }
+
+    #artigo h1, #artigo h2 {
+        color: black;
+    }
+
 }
 
 h2, h3 {

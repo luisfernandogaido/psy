@@ -15,6 +15,34 @@
             Psychostimulants in ADHD Patients: A Pilot Stud
         </h2>
 
+        <p>
+            Clay Brites<sup>1</sup>,
+            Talita Meneses de Almeida<sup>1</sup>,
+            Bruno S. B. Gonçalves<sup>2</sup>,
+            Gabriela M. Zuculo<sup>3</sup>,
+            Luciana Pinato<sup>3</sup>,
+            Cristiane Bolfer<sup>4</sup>,
+            Sylvia M. Ciasca<sup>1</sup>
+        </p>
+
+        <p>
+            <sup>1</sup>
+            Department of Neurology, Laboratory of Learning Difficulties and Disabilities and Attention Disorders
+            (DISAPRE-UNICAMP), Campinas, Brazil
+        </p>
+        <p>
+            <sup>2</sup>
+            Department of School of Arts, Sciences and Humanity, São Paulo University (USP), São Paulo, Brazil
+        </p>
+        <p>
+            <sup>3</sup>
+            Department of Speech Therapy, Paulista State Universitiy (UNESP), Marília, Brazil
+        </p>
+        <p>
+            <sup>4</sup>
+            Department of Neurology, São Paulo University (USP), São Paulo, Brazil
+        </p>
+
         <h3>ABSTRACT</h3>
 
         <p>

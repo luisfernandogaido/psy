@@ -47,6 +47,7 @@ main {
 
 #perfil p {
     margin-bottom: 1rem;
+    text-align: justify;
 }
 
 @media (min-width: 768px) {
@@ -110,7 +111,6 @@ main {
 }
 
 #stat h1 {
-    color: black;
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 2rem;
@@ -125,10 +125,26 @@ main {
 }
 
 #stat .item {
-    margin-bottom: 1rem;
+    margin: 0.5rem;
     display: flex;
     flex-flow: row wrap;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.5);
 }
+
+@media (min-width: 768px) {
+
+    #stat #servicos .item {
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1 calc(50% - 1rem);
+    }
+
+    #stat h1 {
+        flex: 1 0 100%;
+    }
+}
+
 
 #stat .simbolo, #stat h4, #stat p {
     flex: 1 1 100%;

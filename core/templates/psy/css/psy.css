@@ -38,6 +38,18 @@ h1, h2, h3 {
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
+h1 {
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: #fd7062;
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin: 1rem;
+    color: #fd7062;
+}
+
 input {
     outline: none;
     padding: 1rem;

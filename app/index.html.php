@@ -31,95 +31,90 @@
                 <h2><?= strtoupper('Talita Meneses de Almeida Bastos') ?></h2>
                 <h1>Seja bem-vindo</h1>
                 <p>
-                    Psicóloga, Mestranda em Ciências Médicas pelo Departamento de Neurologia FCM / Unicamp direcionada
-                    ao Transtorno do Espectro Autista (TEA). Psicóloga clínica com principal atuação em avaliação
-                    psicológica e neuropsicológica em crianças e adolescentes. Possuí aprimoramento em Psicologia
-                    Clínica aplicada a Neurologia Infantil, especialização em Neuropsicologia aplicada em Neurologia
-                    Infantil e especialização em Psicomotricidade pela Universidade Estadual de Campinas – Unicamp.
-                    Pesquisadora da equipe interdisciplinar do DISAPRE - Laboratório de pesquisa em dificuldades,
-                    distúrbios de aprendizagem e transtornos da atenção. Professora convidada dos cursos de
-                    especialização em Neuropsicologia aplicada a Neurologia Infantil, FCM Unicamp e das disciplinas de
-                    Funções Corticais Superiores da Graduação de Fonoaudiologia, Enfermagem e Medicina/Unicamp.
-                    Orientadora convidada e membro de bancas de trabalho de conclusão de curso (TCC) do curso de
-                    Especialização em Neuropsicologia aplicada a Neurologia Infantil, FCM Unicamp. Membro do CEP da
-                    Universidade Municipal de São Caetano do Sul – USCS, na qual realizo avaliação e relatoria de
-                    projetos de pesquisa submetidos a Plataforma Brasil direcionados a Universidade. Sócia da Associação
-                    Brasileira de Neurologia e Psiquiatria Infantil e Profissões Afins (ABENEPI). Atuou como
-                    pesquisadora voluntária do Laboratório de Distúrbios do Desenvolvimento do Instituto de Psicologia
-                    da USP com o trabalho direcionado a avaliação psicológica de crianças e adolescentes em equipe
-                    multidisciplinar, atuação clínica na Policlínica / APAE - SCS nas áreas de Psicologia e
-                    Psicomotricidade, direcionado aos Transtornos do Neurodesenvolvimento, Síndromes Genéticas e
-                    problemas psicológicos.
+                    Psicóloga / Neuropsicóloga. Mestranda em Ciências Médicas pelo Departamento de Neurologia FCM /
+                    Unicamp direcionada ao Transtorno do Espectro Autista (TEA). Psicóloga clínica com principal atuação
+                    em avaliação psicológica e neuropsicológica em crianças e adolescentes, terapia na abordagem
+                    Cognitiva Comportamental para crianças, adolescentes e adultos. Membro e pesquisadora da equipe
+                    interdisciplinar do DISAPRE - Laboratório de pesquisa em dificuldades, distúrbios de aprendizagem e
+                    transtornos da atenção. Professora convidada dos cursos de especialização em Neuropsicologia
+                    aplicada a Neurologia Infantil, FCM Unicamp e das disciplinas de Funções Corticais Superiores da
+                    Graduação de Fonoaudiologia, Enfermagem e Medicina/Unicamp.
                 </p>
-                <h3>MB, Harvard University</h3>
-                <h3>MMed, University of Michigan</h3>
                 <div class="botoes">
-                    <a>Leia sobre mim</a>
-                    <a class="importante">Ver serviços</a>
+                    <a href="perfil.php">Leia sobre mim</a>
                 </div>
             </div>
         </div>
     </div>
 
     <div id="stat">
-        <div>
-            <div>
+        <div id="servicos">
 
-                <h1>Minhas atuações</h1>
+            <h1>Serviços</h1>
 
-                <div class="item">
-                    <div class="simbolo">
-                        <a class="notification"></a>
-                    </div>
-                    <h4>Avaliação Psicológica</h4>
-                    <p>
-                        (resumo e texto maior)
-                    </p>
+            <div class="item">
+                <div class="simbolo">
+                    <a class="notification"></a>
                 </div>
+                <h4>Avaliação Psicológica</h4>
+                <p>
+                    (resumo e texto maior)
+                </p>
+            </div>
 
-                <div class="item">
-                    <div class="simbolo">
-                        <a class="group"></a>
-                    </div>
-                    <h4>Avaliação Neuropsicológica</h4>
-                    <p>
-                        (resumo e texto maior)
-                    </p>
+            <div class="item">
+                <div class="simbolo">
+                    <a class="group"></a>
                 </div>
+                <h4>Avaliação Neuropsicológica</h4>
+                <p>
+                    (resumo e texto maior)
+                </p>
+            </div>
 
-                <div class="item">
-                    <div class="simbolo">
-                        <a class="favorite"></a>
-                    </div>
-                    <h4>Intervenção Psicológica</h4>
-                    <p>
-                        (resumo e texto maior)
-                    </p>
+            <div class="item">
+                <div class="simbolo">
+                    <a class="favorite"></a>
                 </div>
+                <h4>Intervenção</h4>
+                <p>
+                    (resumo e texto maior)
+                </p>
+            </div>
 
-                <div class="item">
-                    <div class="simbolo">
-                        <a class="favorite"></a>
-                    </div>
-                    <h4>Orientação / Psicoeducação</h4>
-                    <p>
-                        (para os pais de crianças e adolescentes)
-                    </p>
+            <div class="item">
+                <div class="simbolo">
+                    <a class="favorite"></a>
                 </div>
+                <h4>Orientação / Psicoeducação</h4>
+                <p>
+                    (para os pais de crianças e adolescentes)
+                </p>
+            </div>
 
-                <div class="item">
-                    <div class="simbolo">
-                        <a class="favorite"></a>
-                    </div>
-                    <h4>Orientação / Psicoeducação</h4>
-                    <p>
-                        (para os pais de crianças e adolescentes)
-                    </p>
+            <div class="item">
+                <div class="simbolo">
+                    <a class="favorite"></a>
                 </div>
+                <h4>Supervisão</h4>
+                <p>
+                    (para os pais de crianças e adolescentes)
+                </p>
+            </div>
 
+            <div class="item">
+                <div class="simbolo">
+                    <a class="favorite"></a>
+                </div>
+                <h4>Cursos</h4>
+                <p>
+                    (para os pais de crianças e adolescentes)
+                </p>
             </div>
 
         </div>
+
+    </div>
     </div>
 
     <div id="artigos">
