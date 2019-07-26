@@ -80,14 +80,16 @@ main {
 }
 
 #stat {
-    background: url("imagens-home/gf01.png") no-repeat center left;
+    /*background: url("imagens-home/planning3.jpg") no-repeat center left;*/
+    /*todo descomentar*/
     background-size: cover;
     margin: 2rem 0;
 }
 
 @media (min-width: 1024px) {
     #stat {
-        background: url("imagens-home/gf01.png") no-repeat center right;
+        /*background: url("imagens-home/planning3.jpg") no-repeat center right;*/
+        /*todo descomentar*/
         background-size: contain;
     }
 }
@@ -142,7 +144,7 @@ main {
     #stat #servicos .item {
         display: flex;
         flex-flow: row wrap;
-        flex: 1 1 calc(50% - 1rem);
+        flex: 1 1 calc(100%/3 - 1rem);
     }
 
     #stat h1 {
@@ -179,6 +181,10 @@ main {
 
 #stat .simbolo a.favorite {
     background-image: url("../core/templates/psy/img/favorite.svg");
+}
+
+#stat .simbolo a.person {
+    background-image: url("../core/templates/psy/img/person.svg");
 }
 
 #stat h4 {

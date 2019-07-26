@@ -54,7 +54,7 @@
 
             <div class="item">
                 <div class="simbolo">
-                    <a class="notification"></a>
+                    <a class="person"></a>
                 </div>
                 <h4>Avaliação Psicológica</h4>
                 <p>
@@ -64,7 +64,7 @@
 
             <div class="item">
                 <div class="simbolo">
-                    <a class="group"></a>
+                    <a class="person"></a>
                 </div>
                 <h4>Avaliação Neuropsicológica</h4>
                 <p>
