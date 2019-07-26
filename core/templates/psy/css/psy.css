@@ -23,7 +23,7 @@
 
 a {
     text-decoration: none;
-    color: steelblue;
+    color: #275062;
 }
 
 a[href] {
@@ -362,7 +362,7 @@ main {
     }
 
     menu div.sub a:hover {
-        color: black;
+        color: #275062;
     }
 
     menu div.sub a:active {
@@ -455,7 +455,7 @@ footer > .menu a {
     padding: 0.5rem 1rem;
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     font-size: 0.75rem;
-    color: #fd7062;
+    color: #275062;
 }
 
 footer > .contato {
