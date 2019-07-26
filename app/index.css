@@ -80,16 +80,21 @@ main {
 }
 
 #stat {
-    /*background: url("imagens-home/planning3.jpg") no-repeat center left;*/
-    /*todo descomentar*/
+    background: url("imagens-home/planning5.jpg") no-repeat center right;
     background-size: cover;
     margin: 2rem 0;
 }
 
 @media (min-width: 1024px) {
     #stat {
-        /*background: url("imagens-home/planning3.jpg") no-repeat center right;*/
-        /*todo descomentar*/
+        background: url("imagens-home/planning5.jpg") no-repeat center right;
+        background-size: contain;
+    }
+}
+
+@media (min-width: 1600px) {
+    #stat {
+        background: url("imagens-home/planning5.jpg") no-repeat center right;
         background-size: contain;
     }
 }
