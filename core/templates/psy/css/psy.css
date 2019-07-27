@@ -80,6 +80,27 @@ header {
     font-size: 1.1rem;
     font-weight: bold;
     color: #fd7062;
+    background: url("../img/meu-cerebro.svg") no-repeat center left 0.65rem;
+    background-size: 1.75rem;
+}
+
+
+@media (min-width: 360px) {
+    #logo {
+        background-position-x: 2.5rem;
+    }
+}
+
+@media (min-width: 425px) {
+    #logo {
+        background-position-x: 4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #logo {
+        background-position-x: 14.5rem;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -223,7 +244,9 @@ main {
     #logo {
         flex: 0 1 25%;
         justify-content: flex-start;
-        padding-left: 1rem;
+        background-position-x: 0.75rem;
+        padding-left: 3rem;
+
     }
 
     #hamburguer, #call {
