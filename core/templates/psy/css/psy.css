@@ -76,36 +76,37 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
-    font-size: 1.1rem;
     font-weight: bold;
     color: #fd7062;
-    background: url("../img/meu-cerebro.svg") no-repeat center left 0.65rem;
+    background: url("../img/meu-cerebro.svg") no-repeat center left;
     background-size: 1.75rem;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
+
 }
 
 
 @media (min-width: 360px) {
     #logo {
-        background-position-x: 2.5rem;
+        background-position-x: 1.5rem;
+    }
+}
+
+@media (min-width: 375px) {
+    #logo {
+        background-position-x: 2rem;
     }
 }
 
 @media (min-width: 425px) {
     #logo {
-        background-position-x: 4rem;
-    }
-}
-
-@media (min-width: 425px) {
-    #logo {
-        background-position-x: 11rem;
+        background-position-x: 3rem;
     }
 }
 
 @media (min-width: 768px) {
     #logo {
-        background-position-x: 14.5rem;
+        background-position-x: 14rem;
     }
 }
 

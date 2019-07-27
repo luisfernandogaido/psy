@@ -7,11 +7,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?= $this->nome ?></title>
-    <link rel="icon" href="<?= SITE ?>core/templates/psy/img/favicon.ico?<?= CSSJSV ?>" type="image/x-icon">
+    <link rel="icon" href="<?= SITE ?>core/templates/psy/img/meu-cerebro.png?<?= CSSJSV ?>">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
     <link rel="stylesheet" href="<?= SITE ?>core/templates/psy/css/psy.css?<?= CSSJSV ?>">
     <?= $this->css ?>
 </head>
