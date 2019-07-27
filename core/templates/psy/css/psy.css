@@ -97,6 +97,12 @@ header {
     }
 }
 
+@media (min-width: 425px) {
+    #logo {
+        background-position-x: 11rem;
+    }
+}
+
 @media (min-width: 768px) {
     #logo {
         background-position-x: 14.5rem;
