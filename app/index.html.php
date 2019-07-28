@@ -54,31 +54,36 @@
 
             <div class="item">
                 <div class="simbolo">
-                    <a class="person"></a>
+                    <a class="avaliacao-psicologica"></a>
                 </div>
                 <h4>Avaliação Psicológica</h4>
                 <p>
-                    (resumo e texto maior)
+                    Avaliação Psicológica (individual), com o objetivo de conhecer os fenômenos e os processos
+                    psicológicos por meio de procedimentos de diagnóstico e prognóstico.
                 </p>
             </div>
 
             <div class="item">
                 <div class="simbolo">
-                    <a class="person"></a>
+                    <a class="brain-head"></a>
                 </div>
                 <h4>Avaliação Neuropsicológica</h4>
                 <p>
-                    (resumo e texto maior)
+                    Avaliação Neuropsicológica (individual) de crianças e adolescentes, com queixa de atraso ou quadros
+                    associados ao neurodesenvolvimento, com o objetivo de investigar o desempenho das funções
+                    cognitivas, emocionais e comportamentais.
                 </p>
             </div>
 
             <div class="item">
                 <div class="simbolo">
-                    <a class="favorite"></a>
+                    <a class="intervencao"></a>
                 </div>
                 <h4>Intervenção</h4>
                 <p>
-                    (resumo e texto maior)
+                    Intervenção (individual) na abordagem Cognitiva Comportamental, direcionado as funções cognitivas,
+                    emocionais e comportamentais, com o tratamento baseado em uma formulação cognitiva, as crenças e as
+                    estratégias comportamentais que caracterizam o quadro específico.
                 </p>
             </div>
 
@@ -88,7 +93,8 @@
                 </div>
                 <h4>Orientação / Psicoeducação</h4>
                 <p>
-                    (para os pais de crianças e adolescentes)
+                    Psicoeducação para pais de crianças e adolescentes com transtornos do Neurodesenvolvimento.
+
                 </p>
             </div>
 
@@ -98,7 +104,7 @@
                 </div>
                 <h4>Supervisão</h4>
                 <p>
-                    (para os pais de crianças e adolescentes)
+                    Supervisão nas áreas de psicologia / neuropsicologia a profissionais das áreas saúde e educação.
                 </p>
             </div>
 
@@ -108,7 +114,7 @@
                 </div>
                 <h4>Cursos</h4>
                 <p>
-                    (para os pais de crianças e adolescentes)
+                    Cursos e palestras para escolas e profissionais das áreas da saúde e educação.
                 </p>
             </div>
 

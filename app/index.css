@@ -149,7 +149,7 @@ main {
     #stat #servicos .item {
         display: flex;
         flex-flow: row wrap;
-        flex: 1 1 calc(100%/3 - 1rem);
+        flex: 1 1 calc(100% / 3 - 1rem);
     }
 
     #stat h1 {
@@ -192,6 +192,21 @@ main {
     background-image: url("../core/templates/psy/img/person.svg");
 }
 
+#stat .simbolo a.brain-head {
+    background-image: url("../core/templates/psy/img/brain-and-head.svg");
+    background-size: 2.25rem;
+}
+
+#stat .simbolo a.intervencao {
+    background-image: url("../core/templates/psy/img/puzzle.svg");
+    background-size: 2rem;
+}
+
+#stat .simbolo a.avaliacao-psicologica {
+    background-image: url("../core/templates/psy/img/puzzle-and-head.svg");
+    background-size: 2.25rem;
+}
+
 #stat h4 {
     text-align: center;
     margin: 1.5rem;
@@ -203,6 +218,7 @@ main {
 #stat p {
     font-family: "Times New Roman", serif;
     color: #8b949c;
+    text-align: justify;
 }
 
 #artigos {
