@@ -221,6 +221,11 @@ main {
     text-align: justify;
 }
 
+#stat .botoes {
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
 #artigos {
     background: url("../core/templates/psy/img/fundos/m.png") center fixed;
     background-size: cover;
